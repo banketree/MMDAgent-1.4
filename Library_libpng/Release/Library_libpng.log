@@ -1,0 +1,64 @@
+﻿2014/08/08 14:47:41 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_libpng\Library_libpng.vcxproj" (build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output ディレクトリの末尾がスラッシュではありません。Output ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_libpng.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\*.h include;
+         copy src\scripts\pnglibconf.h.prebuilt include\pnglibconf.h;
+         
+         :VCEnd
+         src\png.h
+         src\pngconf.h
+         src\pngdebug.h
+         src\pnginfo.h
+         src\pngpriv.h
+         src\pngstruct.h
+                 6 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_zlib\include /Iinclude /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\png.c src\pngerror.c src\pngget.c src\pngmem.c src\pngpread.c src\pngread.c src\pngrio.c src\pngrtran.c src\pngrutil.c src\pngset.c src\pngtest.c src\pngtrans.c src\pngwio.c src\pngwrite.c src\pngwtran.c src\pngwutil.c
+         png.c
+         pngerror.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+         pngrio.c
+         pngrtran.c
+         pngrutil.c
+         pngset.c
+         pngtest.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+         pngwtran.c
+         pngwutil.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Library_libpng\.\lib\Library_libpng.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_libpng\lib\libpng.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_libpng) が Library の OutputFile プロパティ値 (libpng) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\libpng.lib" /NOLOGO /LTCG Release\png.obj
+         Release\pngerror.obj
+         Release\pngget.obj
+         Release\pngmem.obj
+         Release\pngpread.obj
+         Release\pngread.obj
+         Release\pngrio.obj
+         Release\pngrtran.obj
+         Release\pngrutil.obj
+         Release\pngset.obj
+         Release\pngtest.obj
+         Release\pngtrans.obj
+         Release\pngwio.obj
+         Release\pngwrite.obj
+         Release\pngwtran.obj
+         Release\pngwutil.obj
+         Library_libpng.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Library_libpng\.\lib\Library_libpng.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_libpng.unsuccessfulbuild" を削除しています。
+         "Release\Library_libpng.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_libpng\Library_libpng.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:06.83

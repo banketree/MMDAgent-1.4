@@ -1,0 +1,66 @@
+﻿2014/08/08 16:11:20 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_zlib\Library_zlib.vcxproj" (build ターゲット)。
+     1>PrepareForBuild:
+         ディレクトリ "C:\MMDAgent2\MMDAgent-1.4\Debug\" を作成しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_zlib.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\*.h include
+         :VCEnd
+         src\crc32.h
+         src\deflate.h
+         src\gzguts.h
+         src\inffast.h
+         src\inffixed.h
+         src\inflate.h
+         src\inftrees.h
+         src\trees.h
+         src\zconf.h
+         src\zlib.h
+         src\zutil.h
+                11 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /wd4996 /analyze- /errorReport:prompt src\adler32.c src\compress.c src\crc32.c src\deflate.c src\gzclose.c src\gzlib.c src\gzread.c src\gzwrite.c src\infback.c src\inffast.c src\inflate.c src\inftrees.c src\trees.c src\uncompr.c src\zutil.c
+         zutil.c
+         uncompr.c
+         trees.c
+         inftrees.c
+         inflate.c
+         inffast.c
+         infback.c
+         gzwrite.c
+         gzread.c
+         gzlib.c
+         gzclose.c
+         deflate.c
+         crc32.c
+         compress.c
+         adler32.c
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_zlib.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_zlib\lib\zlib_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_zlib) が Library の OutputFile プロパティ値 (zlib_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\zlib_D.lib" /NOLOGO Debug\adler32.obj
+         Debug\compress.obj
+         Debug\crc32.obj
+         Debug\deflate.obj
+         Debug\gzclose.obj
+         Debug\gzlib.obj
+         Debug\gzread.obj
+         Debug\gzwrite.obj
+         Debug\infback.obj
+         Debug\inffast.obj
+         Debug\inflate.obj
+         Debug\inftrees.obj
+         Debug\trees.obj
+         Debug\uncompr.obj
+         Debug\zutil.obj
+         Library_zlib.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_zlib.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_zlib.unsuccessfulbuild" を削除しています。
+         "Debug\Library_zlib.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_zlib\Library_zlib.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:02.53

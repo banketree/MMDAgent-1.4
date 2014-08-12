@@ -1,0 +1,87 @@
+﻿2014/08/08 16:11:54 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_MMDFiles\Library_MMDFiles.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_MMDFiles.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\include\*.h include
+         :VCEnd
+         src\include\BulletPhysics.h
+         src\include\CameraController.h
+         src\include\MMDFiles.h
+         src\include\MMDFiles_utils.h
+         src\include\MotionController.h
+         src\include\MotionManager.h
+         src\include\PMDBone.h
+         src\include\PMDConstraint.h
+         src\include\PMDFace.h
+         src\include\PMDFile.h
+         src\include\PMDIK.h
+         src\include\PMDMaterial.h
+         src\include\PMDModel.h
+         src\include\PMDRigidBody.h
+         src\include\PMDTexture.h
+         src\include\PMDTextureLoader.h
+         src\include\PTree.h
+         src\include\SystemTexture.h
+         src\include\VMD.h
+         src\include\VMDFile.h
+                20 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_Bullet_Physics\include /I..\Library_GLee\include /I..\Library_JPEG\include /I..\Library_libpng\include /I..\Library_zlib\include /Isrc\include /Isrc\lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D MMDFILES_DONTUPDATEMATRICESFORIK /D MMDFILES_DONTSORTORDERFORALPHARENDERING /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt src\lib\BulletPhysics.cpp src\lib\CameraController.cpp src\lib\KinematicMotionState.cpp src\lib\MMDFiles_utils.cpp src\lib\MotionController.cpp src\lib\MotionManager.cpp src\lib\PMDBone.cpp src\lib\PMDConstraint.cpp src\lib\PMDFace.cpp src\lib\PMDIK.cpp src\lib\PMDMaterial.cpp src\lib\PMDModel.cpp src\lib\PMDModel_parse.cpp src\lib\PMDModel_render.cpp src\lib\PMDModel_update.cpp src\lib\PMDRigidBody.cpp src\lib\PMDTexture.cpp src\lib\PMDTextureLoader.cpp src\lib\PTree.cpp src\lib\SystemTexture.cpp src\lib\VMD.cpp
+         VMD.cpp
+         SystemTexture.cpp
+         PTree.cpp
+         PMDTextureLoader.cpp
+         PMDTexture.cpp
+         PMDRigidBody.cpp
+         PMDModel_update.cpp
+         PMDModel_render.cpp
+         PMDModel_parse.cpp
+         PMDModel.cpp
+         PMDMaterial.cpp
+         PMDIK.cpp
+         PMDFace.cpp
+         PMDConstraint.cpp
+         PMDBone.cpp
+         MotionManager.cpp
+         MotionController.cpp
+         MMDFiles_utils.cpp
+         KinematicMotionState.cpp
+         CameraController.cpp
+         コードを生成中...
+         コンパイル中...
+         BulletPhysics.cpp
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_MMDFiles.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_MMDFiles\lib\MMDFiles_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_MMDFiles) が Library の OutputFile プロパティ値 (MMDFiles_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\MMDFiles_D.lib" /NOLOGO Debug\BulletPhysics.obj
+         Debug\CameraController.obj
+         Debug\KinematicMotionState.obj
+         Debug\MMDFiles_utils.obj
+         Debug\MotionController.obj
+         Debug\MotionManager.obj
+         Debug\PMDBone.obj
+         Debug\PMDConstraint.obj
+         Debug\PMDFace.obj
+         Debug\PMDIK.obj
+         Debug\PMDMaterial.obj
+         Debug\PMDModel.obj
+         Debug\PMDModel_parse.obj
+         Debug\PMDModel_render.obj
+         Debug\PMDModel_update.obj
+         Debug\PMDRigidBody.obj
+         Debug\PMDTexture.obj
+         Debug\PMDTextureLoader.obj
+         Debug\PTree.obj
+         Debug\SystemTexture.obj
+         Debug\VMD.obj
+         Library_MMDFiles.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_MMDFiles.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_MMDFiles.unsuccessfulbuild" を削除しています。
+         "Debug\Library_MMDFiles.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_MMDFiles\Library_MMDFiles.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:14.82

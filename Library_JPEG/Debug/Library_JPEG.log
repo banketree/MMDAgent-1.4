@@ -1,0 +1,133 @@
+﻿2014/08/08 16:11:20 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_JPEG\Library_JPEG.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_JPEG.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\jconfig.txt include\jconfig.h;
+         copy src\*.h include;
+         
+         :VCEnd
+                 1 個のファイルをコピーしました。
+         src\cderror.h
+         src\cdjpeg.h
+         src\jdct.h
+         src\jerror.h
+         src\jinclude.h
+         src\jmemsys.h
+         src\jmorecfg.h
+         src\jpegint.h
+         src\jpeglib.h
+         src\jversion.h
+         src\transupp.h
+                11 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\jaricom.c src\jcapimin.c src\jcapistd.c src\jcarith.c src\jccoefct.c src\jccolor.c src\jcdctmgr.c src\jchuff.c src\jcinit.c src\jcmainct.c src\jcmarker.c src\jcmaster.c src\jcomapi.c src\jcparam.c src\jcprepct.c src\jcsample.c src\jctrans.c src\jdapimin.c src\jdapistd.c src\jdarith.c src\jdatadst.c src\jdatasrc.c src\jdcoefct.c src\jdcolor.c src\jddctmgr.c src\jdhuff.c src\jdinput.c src\jdmainct.c src\jdmarker.c src\jdmaster.c src\jdmerge.c src\jdpostct.c src\jdsample.c src\jdtrans.c src\jerror.c src\jfdctflt.c src\jfdctfst.c src\jfdctint.c src\jidctflt.c src\jidctfst.c src\jidctint.c src\jmemmgr.c src\jmemnobs.c src\jquant1.c src\jquant2.c src\jutils.c
+         jutils.c
+         jquant2.c
+         jquant1.c
+         jmemnobs.c
+         jmemmgr.c
+         jidctint.c
+         jidctfst.c
+         jidctflt.c
+         jfdctint.c
+         jfdctfst.c
+         jfdctflt.c
+         jerror.c
+         jdtrans.c
+         jdsample.c
+         jdpostct.c
+         jdmerge.c
+         jdmaster.c
+         jdmarker.c
+         jdmainct.c
+         jdinput.c
+         コードを生成中...
+         コンパイル中...
+         jdhuff.c
+         jddctmgr.c
+         jdcolor.c
+         jdcoefct.c
+         jdatasrc.c
+         jdatadst.c
+         jdarith.c
+         jdapistd.c
+         jdapimin.c
+         jctrans.c
+         jcsample.c
+         jcprepct.c
+         jcparam.c
+         jcomapi.c
+         jcmaster.c
+         jcmarker.c
+         jcmainct.c
+         jcinit.c
+         jchuff.c
+         jcdctmgr.c
+         コードを生成中...
+         コンパイル中...
+         jccolor.c
+         jccoefct.c
+         jcarith.c
+         jcapistd.c
+         jcapimin.c
+         jaricom.c
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_JPEG.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_JPEG\lib\JPEG_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_JPEG) が Library の OutputFile プロパティ値 (JPEG_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\JPEG_D.lib" /NOLOGO Debug\jaricom.obj
+         Debug\jcapimin.obj
+         Debug\jcapistd.obj
+         Debug\jcarith.obj
+         Debug\jccoefct.obj
+         Debug\jccolor.obj
+         Debug\jcdctmgr.obj
+         Debug\jchuff.obj
+         Debug\jcinit.obj
+         Debug\jcmainct.obj
+         Debug\jcmarker.obj
+         Debug\jcmaster.obj
+         Debug\jcomapi.obj
+         Debug\jcparam.obj
+         Debug\jcprepct.obj
+         Debug\jcsample.obj
+         Debug\jctrans.obj
+         Debug\jdapimin.obj
+         Debug\jdapistd.obj
+         Debug\jdarith.obj
+         Debug\jdatadst.obj
+         Debug\jdatasrc.obj
+         Debug\jdcoefct.obj
+         Debug\jdcolor.obj
+         Debug\jddctmgr.obj
+         Debug\jdhuff.obj
+         Debug\jdinput.obj
+         Debug\jdmainct.obj
+         Debug\jdmarker.obj
+         Debug\jdmaster.obj
+         Debug\jdmerge.obj
+         Debug\jdpostct.obj
+         Debug\jdsample.obj
+         Debug\jdtrans.obj
+         Debug\jerror.obj
+         Debug\jfdctflt.obj
+         Debug\jfdctfst.obj
+         Debug\jfdctint.obj
+         Debug\jidctflt.obj
+         Debug\jidctfst.obj
+         Debug\jidctint.obj
+         Debug\jmemmgr.obj
+         Debug\jmemnobs.obj
+         Debug\jquant1.obj
+         Debug\jquant2.obj
+         Debug\jutils.obj
+         Library_JPEG.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_JPEG.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_JPEG.unsuccessfulbuild" を削除しています。
+         "Debug\Library_JPEG.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_JPEG\Library_JPEG.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:07.19

@@ -1,0 +1,25 @@
+﻿2014/08/08 16:36:34 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Plugin_Variables\Plugin_Variables.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Plugin_Variables.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Library_Bullet_Physics\lib /LIBPATH:..\Library_MMDFiles\lib /LIBPATH:..\Library_zlib\lib /LIBPATH:..\Library_libpng\lib /LIBPATH:..\Library_GLee\lib /LIBPATH:..\Library_MMDAgent\lib /LIBPATH:..\Library_JPEG\lib /LIBPATH:..\Library_GLFW\lib MMDFiles.lib libpng.lib Bullet_Physics.lib winmm.lib opengl32.lib glu32.lib zlib.lib GLee.lib MMDAgent.lib JPEG.lib GLFW.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Plugin_Variables.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.lib" /MACHINE:X86 /DLL Release\CountDown_Thread.obj
+         Release\Plugin_Variables.obj
+         Release\Variables.obj
+            ライブラリ C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.lib とオブジェクト C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.exp を作成中
+         コード生成しています。
+     1>c:\mmdagent2\mmdagent-1.4\library_glee\src\glee.c(16010): warning C4748: /GS 関数での最適化が無効にされているため、パラメーターおよびローカル変数をローカルのバッファー オーバーランから保護できません。
+         コード生成が終了しました。
+         Plugin_Variables.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Variables.dll;#2" /manifest Release\Plugin_Variables.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\Plugin_Variables.unsuccessfulbuild" を削除しています。
+         "Release\Plugin_Variables.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Plugin_Variables\Plugin_Variables.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:20.52

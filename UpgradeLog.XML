@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="MMDAgent_vs2010">
+</Property><Property Name="ソリューション ファイル" Value="C:\MMDAgent2\MMDAgent-1.4\MMDAgent_vs2010.sln">
+</Property><Property Name="Date" Value="2014年8月8日">
+</Property><Property Name="Time" Value="15:15:04">
+</Property></Properties><Event ErrorLevel="0" Project="Plugin_Skeleton" Source="Plugin_Skeleton\Plugin_Skeleton.vcproj" Description="Converting project file 'C:\MMDAgent2\MMDAgent-1.4\Plugin_Skeleton\Plugin_Skeleton.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Plugin_Skeleton" Source="Plugin_Skeleton\Plugin_Skeleton.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Plugin_Skeleton" Source="Plugin_Skeleton\Plugin_Skeleton.vcproj" Description="MSB8012: $(TargetPath) ('C:\MMDAgent2\MMDAgent-1.4\Debug\Plugin_Skeleton.dll') does not match the Linker's OutputFile property value 'C:\MMDAgent2\MMDAgent-1.4\Debug\Plugins\Plugin_Skeleton.dll' ('C:\MMDAgent2\MMDAgent-1.4\Debug\Plugins\Plugin_Skeleton.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="Plugin_Skeleton" Source="Plugin_Skeleton\Plugin_Skeleton.vcproj" Description="MSB8012: $(TargetPath) ('C:\MMDAgent2\MMDAgent-1.4\Release\Plugin_Skeleton.dll') does not match the Linker's OutputFile property value 'C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.dll' ('C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="Plugin_Skeleton" Source="Plugin_Skeleton\Plugin_Skeleton.vcproj" Description="Done converting to new project file 'C:\MMDAgent2\MMDAgent-1.4\Plugin_Skeleton\Plugin_Skeleton.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Plugin_Skeleton" Source="Plugin_Skeleton\Plugin_Skeleton.vcproj" Description="Converted">
+</Event></UpgradeLog>

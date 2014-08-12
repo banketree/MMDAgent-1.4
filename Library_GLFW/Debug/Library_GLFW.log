@@ -1,0 +1,65 @@
+﻿2014/08/08 16:11:23 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_GLFW\Library_GLFW.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_GLFW.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\include\GL\glfw.h include\GL
+         :VCEnd
+                 1 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\include /Isrc\lib /Isrc\lib\win32 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /D _CRT_SECURE_NO_WARNINGS /D MMDAGENT /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\lib\enable.c src\lib\fullscreen.c src\lib\glext.c src\lib\image.c src\lib\init.c src\lib\input.c src\lib\joystick.c src\lib\stream.c src\lib\tga.c src\lib\thread.c src\lib\time.c src\lib\win32\win32_enable.c src\lib\win32\win32_fullscreen.c src\lib\win32\win32_glext.c src\lib\win32\win32_init.c src\lib\win32\win32_joystick.c src\lib\win32\win32_thread.c src\lib\win32\win32_time.c src\lib\win32\win32_window.c src\lib\window.c
+         window.c
+         win32_window.c
+         win32_time.c
+         win32_thread.c
+         win32_joystick.c
+         win32_init.c
+         win32_glext.c
+         win32_fullscreen.c
+         win32_enable.c
+         time.c
+         thread.c
+         tga.c
+         stream.c
+     1>c:\mmdagent2\mmdagent-1.4\library_glfw\src\lib\stream.c(31): warning C4005: '_CRT_SECURE_NO_WARNINGS' : マクロが再定義されました。
+                 コマンド ラインの引数 : '_CRT_SECURE_NO_WARNINGS' の前の定義を確認してください
+         joystick.c
+         input.c
+         init.c
+         image.c
+         glext.c
+         fullscreen.c
+         enable.c
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_GLFW.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_GLFW\lib\GLFW_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_GLFW) が Library の OutputFile プロパティ値 (GLFW_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\GLFW_D.lib" /NOLOGO Debug\enable.obj
+         Debug\fullscreen.obj
+         Debug\glext.obj
+         Debug\image.obj
+         Debug\init.obj
+         Debug\input.obj
+         Debug\joystick.obj
+         Debug\stream.obj
+         Debug\tga.obj
+         Debug\thread.obj
+         Debug\time.obj
+         Debug\win32_enable.obj
+         Debug\win32_fullscreen.obj
+         Debug\win32_glext.obj
+         Debug\win32_init.obj
+         Debug\win32_joystick.obj
+         Debug\win32_thread.obj
+         Debug\win32_time.obj
+         Debug\win32_window.obj
+         Debug\window.obj
+         Library_GLFW.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_GLFW.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_GLFW.unsuccessfulbuild" を削除しています。
+         "Debug\Library_GLFW.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_GLFW\Library_GLFW.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.07

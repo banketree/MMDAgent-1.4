@@ -1,0 +1,29 @@
+﻿2014/08/08 16:36:10 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Plugin_Julius\Plugin_Julius.vcxproj" (build ターゲット)。
+     1>PrepareForBuild:
+         ディレクトリ "C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\" を作成しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Plugin_Julius.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         すべての出力が最新のものです。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Library_Bullet_Physics\lib /LIBPATH:..\Library_MMDFiles\lib /LIBPATH:..\Library_zlib\lib /LIBPATH:..\Library_libpng\lib /LIBPATH:..\Library_GLee\lib /LIBPATH:..\Library_MMDAgent\lib /LIBPATH:..\Library_Julius\lib /LIBPATH:..\Library_PortAudio\lib /LIBPATH:..\Library_JPEG\lib /LIBPATH:..\Library_GLFW\lib MMDFiles.lib libpng.lib Bullet_Physics.lib winmm.lib opengl32.lib glu32.lib zlib.lib GLee.lib MMDAgent.lib Julius.lib ws2_32.lib PortAudio.lib JPEG.lib GLFW.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Plugin_Julius.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.lib" /MACHINE:X86 /DLL Release\Julius_Logger.obj
+         Release\Julius_Thread.obj
+         Release\Plugin_Julius.obj
+            ライブラリ C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.lib とオブジェクト C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.exp を作成中
+         コード生成しています。
+     1>c:\mmdagent2\mmdagent-1.4\library_glee\src\glee.c(16010): warning C4748: /GS 関数での最適化が無効にされているため、パラメーターおよびローカル変数をローカルのバッファー オーバーランから保護できません。
+     1>c:\mmdagent2\mmdagent-1.4\library_julius\src\libsent\src\anlz\vecin_net.c(218): warning C4715: 'vecin_get_configuration' : 値を返さないコントロール パスがあります。
+     1>c:\mmdagent2\mmdagent-1.4\library_julius\src\libsent\src\phmm\outprob.c(472): warning C4715: 'outprob_cache_output' : 値を返さないコントロール パスがあります。
+         コード生成が終了しました。
+         Plugin_Julius.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Julius.dll;#2" /manifest Release\Plugin_Julius.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\Plugin_Julius.unsuccessfulbuild" を削除しています。
+         "Release\Plugin_Julius.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Plugin_Julius\Plugin_Julius.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:34.11

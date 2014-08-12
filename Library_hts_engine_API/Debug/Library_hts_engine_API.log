@@ -1,0 +1,53 @@
+﻿2014/08/08 16:12:58 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_hts_engine_API\Library_hts_engine_API.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_hts_engine_API.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\include\*.h include
+         :VCEnd
+         src\include\HTS_engine.h
+                 1 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\include /Isrc\lib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\lib\HTS_audio.c src\lib\HTS_engine.c src\lib\HTS_gstream.c src\lib\HTS_label.c src\lib\HTS_misc.c src\lib\HTS_model.c src\lib\HTS_pstream.c src\lib\HTS_sstream.c src\lib\HTS_vocoder.c
+         HTS_vocoder.c
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(266): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(313): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(379): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(459): warning C4018: '>' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(759): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(894): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(904): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(912): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(914): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(918): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>c:\mmdagent2\mmdagent-1.4\library_hts_engine_api\src\lib\hts_vocoder.c(944): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         HTS_sstream.c
+         HTS_pstream.c
+         HTS_model.c
+         HTS_misc.c
+         HTS_label.c
+         HTS_gstream.c
+         HTS_engine.c
+         HTS_audio.c
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_hts_engine_API.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_hts_engine_API\lib\hts_engine_API_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_hts_engine_API) が Library の OutputFile プロパティ値 (hts_engine_API_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\hts_engine_API_D.lib" /NOLOGO Debug\HTS_audio.obj
+         Debug\HTS_engine.obj
+         Debug\HTS_gstream.obj
+         Debug\HTS_label.obj
+         Debug\HTS_misc.obj
+         Debug\HTS_model.obj
+         Debug\HTS_pstream.obj
+         Debug\HTS_sstream.obj
+         Debug\HTS_vocoder.obj
+         Library_hts_engine_API.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_hts_engine_API.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_hts_engine_API.unsuccessfulbuild" を削除しています。
+         "Debug\Library_hts_engine_API.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_hts_engine_API\Library_hts_engine_API.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.55

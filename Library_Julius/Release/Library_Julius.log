@@ -1,0 +1,760 @@
+﻿2014/08/08 14:47:47 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_Julius\Library_Julius.vcxproj" (build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output ディレクトリの末尾がスラッシュではありません。Output ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_Julius.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\libjulius\include\julius\*.h include\julius;
+         copy src\libsent\include\sent\*.h include\sent;
+         copy src\msvc\config\config-*.h include;
+         
+         :VCEnd
+         src\libjulius\include\julius\acconfig.h
+         src\libjulius\include\julius\beam.h
+         src\libjulius\include\julius\callback.h
+         src\libjulius\include\julius\define.h
+         src\libjulius\include\julius\extern.h
+         src\libjulius\include\julius\global.h
+         src\libjulius\include\julius\graph.h
+         src\libjulius\include\julius\jconf.h
+         src\libjulius\include\julius\jfunc.h
+         src\libjulius\include\julius\julius.h
+         src\libjulius\include\julius\juliuslib.h
+         src\libjulius\include\julius\misc.h
+         src\libjulius\include\julius\multi-gram.h
+         src\libjulius\include\julius\plugin.h
+         src\libjulius\include\julius\recog.h
+         src\libjulius\include\julius\search.h
+         src\libjulius\include\julius\trellis.h
+         src\libjulius\include\julius\useropt.h
+         src\libjulius\include\julius\wchmm.h
+                19 個のファイルをコピーしました。
+         src\libsent\include\sent\adin.h
+         src\libsent\include\sent\dfa.h
+         src\libsent\include\sent\hmm.h
+         src\libsent\include\sent\hmm_calc.h
+         src\libsent\include\sent\htk_defs.h
+         src\libsent\include\sent\htk_hmm.h
+         src\libsent\include\sent\htk_param.h
+         src\libsent\include\sent\machines.h
+         src\libsent\include\sent\mfcc.h
+         src\libsent\include\sent\ngram2.h
+         src\libsent\include\sent\ptree.h
+         src\libsent\include\sent\speech.h
+         src\libsent\include\sent\stddefs.h
+         src\libsent\include\sent\tcpip.h
+         src\libsent\include\sent\util.h
+         src\libsent\include\sent\vocabulary.h
+                16 個のファイルをコピーしました。
+         src\msvc\config\config-msvc-julius.h
+         src\msvc\config\config-msvc-libjulius.h
+         src\msvc\config\config-msvc-libsent.h
+                 3 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\libjulius\include /Isrc\libsent\include /Isrc\msvc\config /I..\Library_PortAudio\include /I..\Library_zlib\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARINGS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /wd4819 /analyze- /errorReport:prompt "src\libjulius\src\adin-cut.c" src\libjulius\src\backtrellis.c src\libjulius\src\beam.c src\libjulius\src\callback.c src\libjulius\src\confnet.c src\libjulius\src\default.c src\libjulius\src\dfa_decode.c src\libjulius\src\factoring_sub.c src\libjulius\src\gmm.c src\libjulius\src\gramlist.c src\libjulius\src\graphout.c src\libjulius\src\hmm_check.c src\libjulius\src\instance.c src\libjulius\src\jfunc.c src\libjulius\src\mbr.c "src\libjulius\src\multi-gram.c" src\libjulius\src\m_adin.c src\libjulius\src\m_chkparam.c src\libjulius\src\m_fusion.c src\libjulius\src\m_info.c src\libjulius\src\m_jconf.c src\libjulius\src\m_options.c src\libjulius\src\m_usage.c src\libjulius\src\ngram_decode.c src\libjulius\src\outprob_style.c src\libjulius\src\pass1.c src\libjulius\src\plugin.c "src\libjulius\src\realtime-1stpass.c" src\libjulius\src\recogmain.c src\libjulius\src\search_bestfirst_main.c src\libjulius\src\search_bestfirst_v1.c src\libjulius\src\search_bestfirst_v2.c src\libjulius\src\spsegment.c src\libjulius\src\useropt.c src\libjulius\src\wav2mfcc.c src\libjulius\src\wchmm.c src\libjulius\src\wchmm_check.c src\libjulius\src\word_align.c src\libsent\src\adin\adin_file.c src\libsent\src\adin\adin_portaudio.c src\libsent\src\adin\adin_tcpip.c src\libsent\src\adin\ds48to16.c "src\libsent\src\adin\zc-e.c" src\libsent\src\adin\zmean.c src\libsent\src\anlz\paramselect.c src\libsent\src\anlz\paramtypes.c src\libsent\src\anlz\param_malloc.c src\libsent\src\anlz\rdparam.c src\libsent\src\anlz\strip.c src\libsent\src\anlz\strip_mfcc.c src\libsent\src\anlz\vecin_net.c src\libsent\src\anlz\wrsamp.c src\libsent\src\anlz\wrwav.c src\libsent\src\dfa\cpair.c src\libsent\src\dfa\dfa_lookup.c src\libsent\src\dfa\dfa_malloc.c src\libsent\src\dfa\dfa_util.c src\libsent\src\dfa\init_dfa.c src\libsent\src\dfa\mkcpair.c src\libsent\src\dfa\mkterminfo.c src\libsent\src\dfa\rddfa.c src\libsent\src\hmminfo\cdhmm.c src\libsent\src\hmminfo\cdset.c src\libsent\src\hmminfo\check_hmmtype.c src\libsent\src\hmminfo\check_hmm_restriction.c src\libsent\src\hmminfo\chkhmmlist.c src\libsent\src\hmminfo\guess_cdHMM.c src\libsent\src\hmminfo\hmm_lookup.c src\libsent\src\hmminfo\init_phmm.c src\libsent\src\hmminfo\put_htkdata_info.c src\libsent\src\hmminfo\rdhmmdef.c src\libsent\src\hmminfo\rdhmmdef_data.c src\libsent\src\hmminfo\rdhmmdef_dens.c src\libsent\src\hmminfo\rdhmmdef_mpdf.c src\libsent\src\hmminfo\rdhmmdef_options.c src\libsent\src\hmminfo\rdhmmdef_regtree.c src\libsent\src\hmminfo\rdhmmdef_state.c src\libsent\src\hmminfo\rdhmmdef_streamweight.c src\libsent\src\hmminfo\rdhmmdef_tiedmix.c src\libsent\src\hmminfo\rdhmmdef_trans.c src\libsent\src\hmminfo\rdhmmdef_var.c src\libsent\src\hmminfo\rdhmmlist.c src\libsent\src\hmminfo\read_binhmm.c src\libsent\src\hmminfo\read_binhmmlist.c src\libsent\src\hmminfo\write_binhmm.c src\libsent\src\hmminfo\write_binhmmlist.c src\libsent\src\net\rdwt.c "src\libsent\src\net\server-client.c" src\libsent\src\ngram\init_ngram.c src\libsent\src\ngram\ngram_access.c src\libsent\src\ngram\ngram_compact_context.c src\libsent\src\ngram\ngram_lookup.c src\libsent\src\ngram\ngram_malloc.c src\libsent\src\ngram\ngram_read_arpa.c src\libsent\src\ngram\ngram_read_bin.c src\libsent\src\ngram\ngram_util.c src\libsent\src\ngram\ngram_write_bin.c src\libsent\src\phmm\addlog.c src\libsent\src\phmm\calc_mix.c src\libsent\src\phmm\calc_tied_mix.c src\libsent\src\phmm\gms.c src\libsent\src\phmm\gms_gprune.c src\libsent\src\phmm\gprune_beam.c src\libsent\src\phmm\gprune_common.c src\libsent\src\phmm\gprune_heu.c src\libsent\src\phmm\gprune_none.c src\libsent\src\phmm\gprune_safe.c src\libsent\src\phmm\mkwhmm.c src\libsent\src\phmm\outprob.c src\libsent\src\phmm\outprob_init.c src\libsent\src\phmm\vsegment.c src\libsent\src\util\aptree.c src\libsent\src\util\confout.c src\libsent\src\util\endian.c src\libsent\src\util\gzfile.c src\libsent\src\util\jlog.c src\libsent\src\util\mybmalloc.c src\libsent\src\util\mymalloc.c src\libsent\src\util\mystrtok.c src\libsent\src\util\ptree.c src\libsent\src\util\qsort.c src\libsent\src\util\readfile.c src\libsent\src\util\strcasecmp.c src\libsent\src\voca\init_voca.c src\libsent\src\voca\voca_load_htkdict.c src\libsent\src\voca\voca_load_wordlist.c src\libsent\src\voca\voca_lookup.c src\libsent\src\voca\voca_malloc.c src\libsent\src\voca\voca_util.c "src\libsent\src\wav2mfcc\mfcc-core.c" src\libsent\src\wav2mfcc\para.c src\libsent\src\wav2mfcc\ss.c "src\libsent\src\wav2mfcc\wav2mfcc-buffer.c" "src\libsent\src\wav2mfcc\wav2mfcc-pipe.c" src\msvc\config\version.c
+         adin-cut.c
+     1>src\libjulius\src\adin-cut.c(176): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\adin-cut.c(309): warning C4101: 'transfer_online_local' : ローカル変数は 1 度も使われていません。
+         backtrellis.c
+         beam.c
+     1>src\libjulius\src\beam.c(539): warning C4244: 'return' : 'LOGPROB' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\beam.c(609): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\beam.c(644): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\beam.c(667): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         callback.c
+         confnet.c
+     1>src\libjulius\src\confnet.c(664): warning C4244: '=' : 'double' から 'PROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\confnet.c(823): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         default.c
+     1>src\libjulius\src\default.c(197): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\default.c(198): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\default.c(200): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\default.c(292): warning C4305: '=' : 'double' から 'LOGPROB' へ切り詰めます。
+         dfa_decode.c
+         factoring_sub.c
+     1>src\libjulius\src\factoring_sub.c(183): warning C4101: 's' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\factoring_sub.c(353): warning C4101: 'mtmp' : ローカル変数は 1 度も使われていません。
+         gmm.c
+     1>src\libjulius\src\gmm.c(192): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(225): warning C4244: '初期化中' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(236): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(366): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(691): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\gmm.c(694): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gramlist.c
+     1>src\libjulius\src\gramlist.c(68): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(185): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(186): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(192): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(193): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(270): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libjulius\src\gramlist.c(276): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(312): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(313): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(319): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\gramlist.c(320): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         graphout.c
+     1>src\libjulius\src\graphout.c(2360): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\graphout.c(2362): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\graphout.c(2492): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         hmm_check.c
+     1>src\libjulius\src\hmm_check.c(94): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libjulius\src\hmm_check.c(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         instance.c
+     1>src\libjulius\src\instance.c(402): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\instance.c(518): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\instance.c(620): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\instance.c(672): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\instance.c(675): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\instance.c(678): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         jfunc.c
+     1>src\libjulius\src\jfunc.c(408): warning C4101: 'argc' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\jfunc.c(409): warning C4101: 'argv' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\jfunc.c(410): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\jfunc.c(572): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\jfunc.c(602): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         mbr.c
+         multi-gram.c
+     1>src\libjulius\src\multi-gram.c(277): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\multi-gram.c(279): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+         m_adin.c
+     1>src\libjulius\src\m_adin.c(312): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>src\libjulius\src\m_adin.c(317): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         m_chkparam.c
+         m_fusion.c
+     1>src\libjulius\src\m_fusion.c(236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_fusion.c(239): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_fusion.c(242): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_fusion.c(336): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libjulius\src\m_fusion.c(1063): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_fusion.c(1065): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libjulius\src\m_fusion.c(1070): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_fusion.c(1072): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libjulius\src\m_fusion.c(1440): warning C4101: 'am' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\m_fusion.c(1440): warning C4101: 'atmp' : ローカル変数は 1 度も使われていません。
+         m_info.c
+         コンパイル中...
+         m_jconf.c
+     1>src\libjulius\src\m_jconf.c(324): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\m_jconf.c(328): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 'getenv' の宣言を確認してください。
+     1>src\libjulius\src\m_jconf.c(426): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_jconf.c(468): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_jconf.c(459): warning C4101: 'cdir' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\m_jconf.c(458): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\m_jconf.c(525): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libjulius\src\m_jconf.c(531): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_jconf.c(555): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         m_options.c
+     1>src\libjulius\src\m_options.c(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(259): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\m_options.c(577): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(586): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(647): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(653): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(668): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(699): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(704): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(719): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(724): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(904): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(917): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\m_options.c(923): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(929): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(934): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\m_options.c(944): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(1038): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(1219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(1269): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\m_options.c(1271): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\m_options.c(1276): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\m_options.c(1444): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(1450): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(1454): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\m_options.c(1458): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         m_usage.c
+         ngram_decode.c
+         outprob_style.c
+     1>src\libjulius\src\outprob_style.c(143): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>src\libjulius\src\outprob_style.c(206): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>src\libjulius\src\outprob_style.c(430): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\outprob_style.c(509): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\outprob_style.c(540): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         pass1.c
+     1>src\libjulius\src\pass1.c(377): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\pass1.c(384): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\pass1.c(520): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\pass1.c(527): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\pass1.c(653): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         plugin.c
+     1>src\libjulius\src\plugin.c(252): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\plugin.c(253): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\plugin.c(361): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(458): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libjulius\src\plugin.c(501): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\plugin.c(502): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\plugin.c(585): warning C4244: '=' : 'double' から 'unsigned int' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\plugin.c(604): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(616): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(629): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(642): warning C4101: 'func' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\plugin.c(676): warning C4101: 'ret' : ローカル変数は 1 度も使われていません。
+         realtime-1stpass.c
+     1>src\libjulius\src\realtime-1stpass.c(670): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libjulius\src\realtime-1stpass.c(819): warning C4244: '=' : 'float' から 'SP16' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\realtime-1stpass.c(993): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         recogmain.c
+     1>src\libjulius\src\recogmain.c(552): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\recogmain.c(564): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libjulius\src\recogmain.c(1201): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\recogmain.c(1208): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\recogmain.c(1225): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libjulius\src\recogmain.c(1223): warning C4101: 'buf' : ローカル変数は 1 度も使われていません。
+         search_bestfirst_main.c
+     1>src\libjulius\src\search_bestfirst_main.c(528): warning C4244: '+=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\search_bestfirst_main.c(568): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libjulius\src\search_bestfirst_main.c(1133): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+     1>src\libjulius\src\search_bestfirst_main.c(1519): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         search_bestfirst_v1.c
+         search_bestfirst_v2.c
+         spsegment.c
+     1>src\libjulius\src\spsegment.c(165): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libjulius\src\spsegment.c(199): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         useropt.c
+     1>src\libjulius\src\useropt.c(141): warning C4113: 'void (__cdecl *)()' はパラメーター リストが 'void (__cdecl *)(void)' と異なります。
+     1>src\libjulius\src\useropt.c(146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libjulius\src\useropt.c(153): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         wav2mfcc.c
+         wchmm.c
+     1>src\libjulius\src\wchmm.c(212): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         wchmm_check.c
+     1>src\libjulius\src\wchmm_check.c(228): warning C4101: 'j' : ローカル変数は 1 度も使われていません。
+         word_align.c
+         adin_file.c
+     1>src\libsent\src\adin\adin_file.c(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_file.c(329): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_file.c(367): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         adin_portaudio.c
+     1>src\libsent\src\adin\adin_portaudio.c(168): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\adin\adin_portaudio.c(223): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(226): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(265): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 'getenv' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(276): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(302): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 'getenv' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(303): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 'getenv' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(404): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 'getenv' の宣言を確認してください。
+     1>src\libsent\src\adin\adin_portaudio.c(463): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+         コンパイル中...
+         adin_tcpip.c
+         ds48to16.c
+     1>src\libsent\src\adin\ds48to16.c(359): warning C4244: '=' : 'double' から 'SP16' への変換です。データが失われる可能性があります。
+         zc-e.c
+         zmean.c
+         paramselect.c
+         paramtypes.c
+     1>src\libsent\src\anlz\paramtypes.c(114): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\anlz\paramtypes.c(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>src\libsent\src\anlz\paramtypes.c(160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\anlz\paramtypes.c(189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>src\libsent\src\anlz\paramtypes.c(191): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\anlz\paramtypes.c(197): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         param_malloc.c
+         rdparam.c
+         strip.c
+         strip_mfcc.c
+         vecin_net.c
+         wrsamp.c
+         wrwav.c
+         cpair.c
+         dfa_lookup.c
+         dfa_malloc.c
+         dfa_util.c
+         init_dfa.c
+         mkcpair.c
+         mkterminfo.c
+         コンパイル中...
+         rddfa.c
+     1>src\libsent\src\dfa\rddfa.c(152): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\dfa\rddfa.c(157): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\dfa\rddfa.c(162): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\dfa\rddfa.c(167): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\dfa\rddfa.c(171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 'sscanf' の宣言を確認してください。
+         cdhmm.c
+     1>src\libsent\src\hmminfo\cdhmm.c(55): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(86): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(131): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(180): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\cdhmm.c(205): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         cdset.c
+         check_hmmtype.c
+         check_hmm_restriction.c
+         chkhmmlist.c
+     1>src\libsent\src\hmminfo\chkhmmlist.c(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\chkhmmlist.c(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\chkhmmlist.c(258): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\chkhmmlist.c(270): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\chkhmmlist.c(301): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\chkhmmlist.c(329): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         guess_cdHMM.c
+         hmm_lookup.c
+     1>src\libsent\src\hmminfo\hmm_lookup.c(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\hmm_lookup.c(183): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         init_phmm.c
+         put_htkdata_info.c
+         rdhmmdef.c
+     1>src\libsent\src\hmminfo\rdhmmdef.c(168): warning C4244: '=' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+         rdhmmdef_data.c
+         rdhmmdef_dens.c
+         rdhmmdef_mpdf.c
+         rdhmmdef_options.c
+         rdhmmdef_regtree.c
+         rdhmmdef_state.c
+         rdhmmdef_streamweight.c
+         rdhmmdef_tiedmix.c
+     1>src\libsent\src\hmminfo\rdhmmdef_tiedmix.c(102): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         rdhmmdef_trans.c
+         コンパイル中...
+         rdhmmdef_var.c
+         rdhmmlist.c
+     1>src\libsent\src\hmminfo\rdhmmlist.c(79): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\hmminfo\rdhmmlist.c(88): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+         read_binhmm.c
+     1>src\libsent\src\hmminfo\read_binhmm.c(108): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\hmminfo\read_binhmm.c(867): warning C4101: 'n' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\hmminfo\read_binhmm.c(868): warning C4101: 'has_sid' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\hmminfo\read_binhmm.c(866): warning C4101: 'stmp' : ローカル変数は 1 度も使われていません。
+         read_binhmmlist.c
+     1>src\libsent\src\hmminfo\read_binhmmlist.c(122): warning C4101: 'ttmp' : ローカル変数は 1 度も使われていません。
+         write_binhmm.c
+         write_binhmmlist.c
+         rdwt.c
+         server-client.c
+         init_ngram.c
+         ngram_access.c
+         ngram_compact_context.c
+         ngram_lookup.c
+         ngram_malloc.c
+         ngram_read_arpa.c
+     1>src\libsent\src\ngram\ngram_read_arpa.c(71): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 'sscanf' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(53): warning C4101: 'p' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(135): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(140): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\ngram\ngram_read_arpa.c(145): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(214): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(218): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(219): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\ngram\ngram_read_arpa.c(224): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(277): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\ngram\ngram_read_arpa.c(281): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(286): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(296): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(388): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(393): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\ngram\ngram_read_arpa.c(399): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(406): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(407): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(422): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(425): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(432): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(484): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(500): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\ngram\ngram_read_arpa.c(661): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         ngram_read_bin.c
+         ngram_util.c
+         ngram_write_bin.c
+     1>src\libsent\src\ngram\ngram_write_bin.c(118): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         addlog.c
+     1>src\libsent\src\phmm\addlog.c(50): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         calc_mix.c
+     1>src\libsent\src\phmm\calc_mix.c(80): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         calc_tied_mix.c
+     1>src\libsent\src\phmm\calc_tied_mix.c(236): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\calc_tied_mix.c(345): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         コンパイル中...
+         gms.c
+     1>src\libsent\src\phmm\gms.c(146): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         gms_gprune.c
+     1>src\libsent\src\phmm\gms_gprune.c(100): warning C4244: '初期化中' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gms_gprune.c(116): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gms_gprune.c(177): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_beam.c
+     1>src\libsent\src\phmm\gprune_beam.c(182): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_beam.c(222): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_common.c
+         gprune_heu.c
+     1>src\libsent\src\phmm\gprune_heu.c(181): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_heu.c(212): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_heu.c(224): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_none.c
+     1>src\libsent\src\phmm\gprune_none.c(81): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         gprune_safe.c
+     1>src\libsent\src\phmm\gprune_safe.c(83): warning C4244: '初期化中' : 'double' から 'VECT' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\phmm\gprune_safe.c(94): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         mkwhmm.c
+         outprob.c
+     1>src\libsent\src\phmm\outprob.c(418): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         outprob_init.c
+         vsegment.c
+     1>src\libsent\src\phmm\vsegment.c(140): warning C4018: '<=' : signed と unsigned の数値を比較しようとしました。
+         aptree.c
+     1>src\libsent\src\util\aptree.c(415): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(419): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(423): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(477): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(481): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(485): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\util\aptree.c(450): warning C4101: 'num' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(448): warning C4101: 'maxbit' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(451): warning C4101: 'err' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(450): warning C4101: 'did' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\util\aptree.c(448): warning C4101: 'count_branch' : ローカル変数は 1 度も使われていません。
+         confout.c
+         endian.c
+         gzfile.c
+     1>src\libsent\src\util\gzfile.c(61): warning C4133: 'return' : 'gzFile' と 'FILE *' の間で型に互換性がありません。
+     1>src\libsent\src\util\gzfile.c(339): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+         jlog.c
+         mybmalloc.c
+         mymalloc.c
+         mystrtok.c
+         ptree.c
+         コンパイル中...
+         qsort.c
+         readfile.c
+         strcasecmp.c
+         init_voca.c
+         voca_load_htkdict.c
+     1>src\libsent\src\voca\voca_load_htkdict.c(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(97): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(98): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(107): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(109): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(110): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(144): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(396): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(405): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(437): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\voca\voca_load_htkdict.c(491): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(593): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_htkdict.c(596): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_htkdict.c(599): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_htkdict.c(602): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_htkdict.c(606): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_htkdict.c(379): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+     1>src\libsent\src\voca\voca_load_htkdict.c(715): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_htkdict.c(720): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         voca_load_wordlist.c
+     1>src\libsent\src\voca\voca_load_wordlist.c(62): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_wordlist.c(221): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_wordlist.c(230): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_wordlist.c(265): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\voca\voca_load_wordlist.c(308): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>src\libsent\src\voca\voca_load_wordlist.c(486): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_wordlist.c(489): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : '_snprintf' の宣言を確認してください。
+     1>src\libsent\src\voca\voca_load_wordlist.c(205): warning C4101: 'i' : ローカル変数は 1 度も使われていません。
+         voca_lookup.c
+     1>src\libsent\src\voca\voca_lookup.c(126): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(197) : 'strtok' の宣言を確認してください。
+         voca_malloc.c
+         voca_util.c
+         mfcc-core.c
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(47): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(102): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(133): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(134): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(162): warning C4244: 'return' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(183): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(184): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(196): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(204): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(214): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(240): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(247): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(248): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(253): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(254): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(299): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(372): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(387): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(417): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(417): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(439): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(439): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(440): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(440): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(483): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(484): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(537): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(557): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(588): warning C4244: '*=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\mfcc-core.c(707): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         para.c
+     1>src\libsent\src\wav2mfcc\para.c(93): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>src\libsent\src\wav2mfcc\para.c(122): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(123): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>src\libsent\src\wav2mfcc\para.c(130): warning C4305: '=' : 'double' から 'float' へ切り詰めます。
+     1>src\libsent\src\wav2mfcc\para.c(208): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>src\libsent\src\wav2mfcc\para.c(237): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(239): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(241): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(247): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(262): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(264): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(270): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(272): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(274): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(276): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(278): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(300): warning C4244: '=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(301): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(302): warning C4244: '/=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\para.c(303): warning C4244: '/=' : 'float' から 'int' への変換です。データが失われる可能性があります。
+         ss.c
+     1>src\libsent\src\wav2mfcc\ss.c(160): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         wav2mfcc-buffer.c
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(125): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(131): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(162): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(274): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-buffer.c(298): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         wav2mfcc-pipe.c
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(354): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(358): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(362): warning C4244: '/=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(374): warning C4244: '+=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(378): warning C4244: '-=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(417): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(549): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(568): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(572): warning C4244: '=' : 'double' から 'int' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(588): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(715): warning C4244: '=' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+     1>src\libsent\src\wav2mfcc\wav2mfcc-pipe.c(733): warning C4244: 'return' : 'double' から 'LOGPROB' への変換です。データが失われる可能性があります。
+         version.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Library_Julius\.\lib\Library_Julius.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_Julius\lib\Julius.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_Julius) が Library の OutputFile プロパティ値 (Julius) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\Julius.lib" /NOLOGO /LTCG "Release\adin-cut.obj"
+         Release\backtrellis.obj
+         Release\beam.obj
+         Release\callback.obj
+         Release\confnet.obj
+         Release\default.obj
+         Release\dfa_decode.obj
+         Release\factoring_sub.obj
+         Release\gmm.obj
+         Release\gramlist.obj
+         Release\graphout.obj
+         Release\hmm_check.obj
+         Release\instance.obj
+         Release\jfunc.obj
+         Release\mbr.obj
+         "Release\multi-gram.obj"
+         Release\m_adin.obj
+         Release\m_chkparam.obj
+         Release\m_fusion.obj
+         Release\m_info.obj
+         Release\m_jconf.obj
+         Release\m_options.obj
+         Release\m_usage.obj
+         Release\ngram_decode.obj
+         Release\outprob_style.obj
+         Release\pass1.obj
+         Release\plugin.obj
+         "Release\realtime-1stpass.obj"
+         Release\recogmain.obj
+         Release\search_bestfirst_main.obj
+         Release\search_bestfirst_v1.obj
+         Release\search_bestfirst_v2.obj
+         Release\spsegment.obj
+         Release\useropt.obj
+         Release\wav2mfcc.obj
+         Release\wchmm.obj
+         Release\wchmm_check.obj
+         Release\word_align.obj
+         Release\adin_file.obj
+         Release\adin_portaudio.obj
+         Release\adin_tcpip.obj
+         Release\ds48to16.obj
+         "Release\zc-e.obj"
+         Release\zmean.obj
+         Release\paramselect.obj
+         Release\paramtypes.obj
+         Release\param_malloc.obj
+         Release\rdparam.obj
+         Release\strip.obj
+         Release\strip_mfcc.obj
+         Release\vecin_net.obj
+         Release\wrsamp.obj
+         Release\wrwav.obj
+         Release\cpair.obj
+         Release\dfa_lookup.obj
+         Release\dfa_malloc.obj
+         Release\dfa_util.obj
+         Release\init_dfa.obj
+         Release\mkcpair.obj
+         Release\mkterminfo.obj
+         Release\rddfa.obj
+         Release\cdhmm.obj
+         Release\cdset.obj
+         Release\check_hmmtype.obj
+         Release\check_hmm_restriction.obj
+         Release\chkhmmlist.obj
+         Release\guess_cdHMM.obj
+         Release\hmm_lookup.obj
+         Release\init_phmm.obj
+         Release\put_htkdata_info.obj
+         Release\rdhmmdef.obj
+         Release\rdhmmdef_data.obj
+         Release\rdhmmdef_dens.obj
+         Release\rdhmmdef_mpdf.obj
+         Release\rdhmmdef_options.obj
+         Release\rdhmmdef_regtree.obj
+         Release\rdhmmdef_state.obj
+         Release\rdhmmdef_streamweight.obj
+         Release\rdhmmdef_tiedmix.obj
+         Release\rdhmmdef_trans.obj
+         Release\rdhmmdef_var.obj
+         Release\rdhmmlist.obj
+         Release\read_binhmm.obj
+         Release\read_binhmmlist.obj
+         Release\write_binhmm.obj
+         Release\write_binhmmlist.obj
+         Release\rdwt.obj
+         "Release\server-client.obj"
+         Release\init_ngram.obj
+         Release\ngram_access.obj
+         Release\ngram_compact_context.obj
+         Release\ngram_lookup.obj
+         Release\ngram_malloc.obj
+         Release\ngram_read_arpa.obj
+         Release\ngram_read_bin.obj
+         Release\ngram_util.obj
+         Release\ngram_write_bin.obj
+         Release\addlog.obj
+         Release\calc_mix.obj
+         Release\calc_tied_mix.obj
+         Release\gms.obj
+         Release\gms_gprune.obj
+         Release\gprune_beam.obj
+         Release\gprune_common.obj
+         Release\gprune_heu.obj
+         Release\gprune_none.obj
+         Release\gprune_safe.obj
+         Release\mkwhmm.obj
+         Release\outprob.obj
+         Release\outprob_init.obj
+         Release\vsegment.obj
+         Release\aptree.obj
+         Release\confout.obj
+         Release\endian.obj
+         Release\gzfile.obj
+         Release\jlog.obj
+         Release\mybmalloc.obj
+         Release\mymalloc.obj
+         Release\mystrtok.obj
+         Release\ptree.obj
+         Release\qsort.obj
+         Release\readfile.obj
+         Release\strcasecmp.obj
+         Release\init_voca.obj
+         Release\voca_load_htkdict.obj
+         Release\voca_load_wordlist.obj
+         Release\voca_lookup.obj
+         Release\voca_malloc.obj
+         Release\voca_util.obj
+         "Release\mfcc-core.obj"
+         Release\para.obj
+         Release\ss.obj
+         "Release\wav2mfcc-buffer.obj"
+         "Release\wav2mfcc-pipe.obj"
+         Release\version.obj
+         Library_Julius.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Library_Julius\.\lib\Library_Julius.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_Julius.unsuccessfulbuild" を削除しています。
+         "Release\Library_Julius.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_Julius\Library_Julius.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:27.13

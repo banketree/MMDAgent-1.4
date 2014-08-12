@@ -1,0 +1,26 @@
+﻿2014/08/08 14:48:34 にビルドを開始しました。
+     1>ノード 4 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\main\main.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\main.unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_Bullet_Physics\include /I..\Library_MMDFiles\include /I..\Library_GLee\include /I..\Library_MMDAgent\include /I..\Library_GLFW\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _WINDOWS /D MMDAGENT /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\main.res" main.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MMDAgent2\MMDAgent-1.4\Release\\MMDAgent.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Library_Bullet_Physics\lib /LIBPATH:..\Library_MMDFiles\lib /LIBPATH:..\Library_zlib\lib /LIBPATH:..\Library_libpng\lib /LIBPATH:..\Library_GLee\lib /LIBPATH:..\Library_MMDAgent\lib /LIBPATH:..\Library_JPEG\lib /LIBPATH:..\Library_GLFW\lib MMDFiles.lib libpng.lib Bullet_Physics.lib winmm.lib opengl32.lib glu32.lib zlib.lib GLee.lib MMDAgent.lib JPEG.lib GLFW.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MMDAgent.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MMDAgent2\MMDAgent-1.4\Release\MMDAgent.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MMDAgent2\MMDAgent-1.4\Release\MMDAgent.lib" /MACHINE:X86 Release\main.res
+         Release\main.obj
+         コード生成しています。
+     1>c:\mmdagent2\mmdagent-1.4\library_glee\src\glee.c(16010): warning C4748: /GS 関数での最適化が無効にされているため、パラメーターおよびローカル変数をローカルのバッファー オーバーランから保護できません。
+         コード生成が終了しました。
+         main.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Release\MMDAgent.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MMDAgent2\MMDAgent-1.4\Release\\MMDAgent.exe;#1" /manifest Release\MMDAgent.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\main.unsuccessfulbuild" を削除しています。
+         "Release\main.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\main\main.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:54.76

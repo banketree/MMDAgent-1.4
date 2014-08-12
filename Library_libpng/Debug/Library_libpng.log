@@ -1,0 +1,74 @@
+﻿2014/08/08 16:11:23 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_libpng\Library_libpng.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_libpng.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\*.h include;
+         copy src\scripts\pnglibconf.h.prebuilt include\pnglibconf.h;
+         
+         :VCEnd
+         src\png.h
+         src\pngconf.h
+         src\pngdebug.h
+         src\pnginfo.h
+         src\pngpriv.h
+         src\pngstruct.h
+                 6 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_zlib\include /Iinclude /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _CRT_NO_SECURE_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\png.c src\pngerror.c src\pngget.c src\pngmem.c src\pngpread.c src\pngread.c src\pngrio.c src\pngrtran.c src\pngrutil.c src\pngset.c src\pngtest.c src\pngtrans.c src\pngwio.c src\pngwrite.c src\pngwtran.c src\pngwutil.c
+         pngwutil.c
+         pngwtran.c
+         pngwrite.c
+     1>c:\mmdagent2\mmdagent-1.4\library_libpng\src\pngwrite.c(444): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : 'gmtime' の宣言を確認してください。
+         pngwio.c
+         pngtrans.c
+         pngtest.c
+     1>c:\mmdagent2\mmdagent-1.4\library_libpng\src\pngtest.c(793): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_libpng\src\pngtest.c(799): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_libpng\src\pngtest.c(1447): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_libpng\src\pngtest.c(1453): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 'fopen' の宣言を確認してください。
+         pngset.c
+         pngrutil.c
+         pngrtran.c
+         pngrio.c
+         pngread.c
+         pngpread.c
+         pngmem.c
+         pngget.c
+         pngerror.c
+         png.c
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_libpng.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_libpng\lib\libpng_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_libpng) が Library の OutputFile プロパティ値 (libpng_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\libpng_D.lib" /NOLOGO Debug\png.obj
+         Debug\pngerror.obj
+         Debug\pngget.obj
+         Debug\pngmem.obj
+         Debug\pngpread.obj
+         Debug\pngread.obj
+         Debug\pngrio.obj
+         Debug\pngrtran.obj
+         Debug\pngrutil.obj
+         Debug\pngset.obj
+         Debug\pngtest.obj
+         Debug\pngtrans.obj
+         Debug\pngwio.obj
+         Debug\pngwrite.obj
+         Debug\pngwtran.obj
+         Debug\pngwutil.obj
+         Library_libpng.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_libpng.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_libpng.unsuccessfulbuild" を削除しています。
+         "Debug\Library_libpng.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_libpng\Library_libpng.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:06.82

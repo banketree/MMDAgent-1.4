@@ -1,0 +1,26 @@
+﻿2014/08/08 15:41:20 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Plugin_Skeleton\Plugin_Skeleton.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "Release\Plugin_Skeleton.unsuccessfulbuild" のタッチ タスクを実行しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_GLee\include /I..\Library_Bullet_physics\include /I..\Library_MMDFiles\include /I..\Library_Julius\include /I..\Library_MMDAgent\include /I..\Library_GLFW\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_WARNINGS /D MMDAGENT /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Plugin_Skeleton.cpp
+         Plugin_Skeleton.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Library_Bullet_Physics\lib /LIBPATH:..\Library_MMDFiles\lib /LIBPATH:..\Library_zlib\lib /LIBPATH:..\Library_libpng\lib /LIBPATH:..\Library_GLee\lib /LIBPATH:..\Library_MMDAgent\lib /LIBPATH:..\Library_JPEG\lib /LIBPATH:..\Library_GLFW\lib MMDFiles.lib libpng.lib Bullet_Physics.lib winmm.lib opengl32.lib glu32.lib zlib.lib GLee.lib MMDAgent.lib JPEG.lib GLFW.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Plugin_Skeleton.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.lib" /MACHINE:X86 /DLL Release\Plugin_Skeleton.obj
+         Release\Skeleton.obj
+         Release\Skeleton_Thread.obj
+            ライブラリ C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.lib とオブジェクト C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.exp を作成中
+         コード生成しています。
+     1>c:\mmdagent2\mmdagent-1.4\library_glee\src\glee.c(16010): warning C4748: /GS 関数での最適化が無効にされているため、パラメーターおよびローカル変数をローカルのバッファー オーバーランから保護できません。
+         コード生成が終了しました。
+         Plugin_Skeleton.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\MMDAgent2\MMDAgent-1.4\Release\Plugins\Plugin_Skeleton.dll;#2" /manifest Release\Plugin_Skeleton.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "Release\Plugin_Skeleton.unsuccessfulbuild" を削除しています。
+         "Release\Plugin_Skeleton.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Plugin_Skeleton\Plugin_Skeleton.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:15.30

@@ -1,0 +1,644 @@
+﻿2014/08/08 16:11:20 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_Bullet_Physics\Library_Bullet_Physics.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_Bullet_Physics.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\src\*.h include;
+         copy src\src\BulletCollision\BroadphaseCollision\*.h include\BulletCollision\BroadphaseCollision;
+         copy src\src\BulletCollision\CollisionDispatch\*.h include\BulletCollision\CollisionDispatch;
+         copy src\src\BulletCollision\CollisionShapes\*.h include\BulletCollision\CollisionShapes;
+         copy src\src\BulletCollision\Gimpact\*.h include\BulletCollision\Gimpact;
+         copy src\src\BulletCollision\NarrowPhaseCollision\*.h include\BulletCollision\NarrowPhaseCollision;
+         copy src\src\BulletDynamics\Character\*.h include\BulletDynamics\Character;
+         copy src\src\BulletDynamics\ConstraintSolver\*.h include\BulletDynamics\ConstraintSolver;
+         copy src\src\BulletDynamics\Dynamics\*.h include\BulletDynamics\Dynamics;
+         copy src\src\BulletDynamics\Vehicle\*.h include\BulletDynamics\Vehicle;
+         copy src\src\BulletMultiThreaded\*.h include\BulletMultiThreaded;
+         copy src\src\BulletMultiThreaded\GpuSoftBodySolvers\CPU\*.h include\BulletMultiThreaded\GpuSoftBodySolvers\CPU;
+         copy src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\*.h include\BulletMultiThreaded\GpuSoftBodySolvers\DX11;
+         copy src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\*.h include\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL;
+         copy src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\*.h include\BulletMultiThreaded\SpuNarrowPhaseCollisionTask;
+         copy src\src\BulletMultiThreaded\SpuSampleTask\*.h include\BulletMultiThreaded\SpuSampleTask;
+         copy src\src\BulletSoftBody\*.h include\BulletSoftBody;
+         copy src\src\LinearMath\*.h include\LinearMath;
+         copy src\src\MiniCL\*.h include\MiniCL;
+         copy src\src\MiniCL\MiniCLTask\*.h include\MiniCL\MiniCLTask;
+         copy src\src\vectormath\*.h include\vectormath;
+         copy src\src\vectormath\scalar\*.h include\vectormath\scalar;
+         copy src\src\vectormath\sse\*.h include\vectormath\sse;
+         
+         :VCEnd
+         src\src\btBulletCollisionCommon.h
+         src\src\btBulletDynamicsCommon.h
+         src\src\Bullet-C-Api.h
+                 3 個のファイルをコピーしました。
+         src\src\BulletCollision\BroadphaseCollision\btAxisSweep3.h
+         src\src\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h
+         src\src\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h
+         src\src\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h
+         src\src\BulletCollision\BroadphaseCollision\btDbvt.h
+         src\src\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h
+         src\src\BulletCollision\BroadphaseCollision\btDispatcher.h
+         src\src\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h
+         src\src\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h
+         src\src\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h
+         src\src\BulletCollision\BroadphaseCollision\btQuantizedBvh.h
+         src\src\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h
+                12 個のファイルをコピーしました。
+         src\src\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btBoxBoxDetector.h
+         src\src\BulletCollision\CollisionDispatch\btCollisionConfiguration.h
+         src\src\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h
+         src\src\BulletCollision\CollisionDispatch\btCollisionDispatcher.h
+         src\src\BulletCollision\CollisionDispatch\btCollisionObject.h
+         src\src\BulletCollision\CollisionDispatch\btCollisionWorld.h
+         src\src\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h
+         src\src\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btGhostObject.h
+         src\src\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h
+         src\src\BulletCollision\CollisionDispatch\btManifoldResult.h
+         src\src\BulletCollision\CollisionDispatch\btSimulationIslandManager.h
+         src\src\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h
+         src\src\BulletCollision\CollisionDispatch\btUnionFind.h
+         src\src\BulletCollision\CollisionDispatch\SphereTriangleDetector.h
+                25 個のファイルをコピーしました。
+         src\src\BulletCollision\CollisionShapes\btBox2dShape.h
+         src\src\BulletCollision\CollisionShapes\btBoxShape.h
+         src\src\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h
+         src\src\BulletCollision\CollisionShapes\btCapsuleShape.h
+         src\src\BulletCollision\CollisionShapes\btCollisionMargin.h
+         src\src\BulletCollision\CollisionShapes\btCollisionShape.h
+         src\src\BulletCollision\CollisionShapes\btCompoundShape.h
+         src\src\BulletCollision\CollisionShapes\btConcaveShape.h
+         src\src\BulletCollision\CollisionShapes\btConeShape.h
+         src\src\BulletCollision\CollisionShapes\btConvex2dShape.h
+         src\src\BulletCollision\CollisionShapes\btConvexHullShape.h
+         src\src\BulletCollision\CollisionShapes\btConvexInternalShape.h
+         src\src\BulletCollision\CollisionShapes\btConvexPointCloudShape.h
+         src\src\BulletCollision\CollisionShapes\btConvexPolyhedron.h
+         src\src\BulletCollision\CollisionShapes\btConvexShape.h
+         src\src\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h
+         src\src\BulletCollision\CollisionShapes\btCylinderShape.h
+         src\src\BulletCollision\CollisionShapes\btEmptyShape.h
+         src\src\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h
+         src\src\BulletCollision\CollisionShapes\btMaterial.h
+         src\src\BulletCollision\CollisionShapes\btMinkowskiSumShape.h
+         src\src\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h
+         src\src\BulletCollision\CollisionShapes\btMultiSphereShape.h
+         src\src\BulletCollision\CollisionShapes\btOptimizedBvh.h
+         src\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h
+         src\src\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h
+         src\src\BulletCollision\CollisionShapes\btShapeHull.h
+         src\src\BulletCollision\CollisionShapes\btSphereShape.h
+         src\src\BulletCollision\CollisionShapes\btStaticPlaneShape.h
+         src\src\BulletCollision\CollisionShapes\btStridingMeshInterface.h
+         src\src\BulletCollision\CollisionShapes\btTetrahedronShape.h
+         src\src\BulletCollision\CollisionShapes\btTriangleBuffer.h
+         src\src\BulletCollision\CollisionShapes\btTriangleCallback.h
+         src\src\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h
+         src\src\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h
+         src\src\BulletCollision\CollisionShapes\btTriangleInfoMap.h
+         src\src\BulletCollision\CollisionShapes\btTriangleMesh.h
+         src\src\BulletCollision\CollisionShapes\btTriangleMeshShape.h
+         src\src\BulletCollision\CollisionShapes\btTriangleShape.h
+         src\src\BulletCollision\CollisionShapes\btUniformScalingShape.h
+                40 個のファイルをコピーしました。
+         src\src\BulletCollision\Gimpact\btBoxCollision.h
+         src\src\BulletCollision\Gimpact\btClipPolygon.h
+         src\src\BulletCollision\Gimpact\btContactProcessing.h
+         src\src\BulletCollision\Gimpact\btGenericPoolAllocator.h
+         src\src\BulletCollision\Gimpact\btGeometryOperations.h
+         src\src\BulletCollision\Gimpact\btGImpactBvh.h
+         src\src\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h
+         src\src\BulletCollision\Gimpact\btGImpactMassUtil.h
+         src\src\BulletCollision\Gimpact\btGImpactQuantizedBvh.h
+         src\src\BulletCollision\Gimpact\btGImpactShape.h
+         src\src\BulletCollision\Gimpact\btQuantization.h
+         src\src\BulletCollision\Gimpact\btTriangleShapeEx.h
+         src\src\BulletCollision\Gimpact\gim_array.h
+         src\src\BulletCollision\Gimpact\gim_basic_geometry_operations.h
+         src\src\BulletCollision\Gimpact\gim_bitset.h
+         src\src\BulletCollision\Gimpact\gim_box_collision.h
+         src\src\BulletCollision\Gimpact\gim_box_set.h
+         src\src\BulletCollision\Gimpact\gim_clip_polygon.h
+         src\src\BulletCollision\Gimpact\gim_contact.h
+         src\src\BulletCollision\Gimpact\gim_geometry.h
+         src\src\BulletCollision\Gimpact\gim_geom_types.h
+         src\src\BulletCollision\Gimpact\gim_hash_table.h
+         src\src\BulletCollision\Gimpact\gim_linear_math.h
+         src\src\BulletCollision\Gimpact\gim_math.h
+         src\src\BulletCollision\Gimpact\gim_memory.h
+         src\src\BulletCollision\Gimpact\gim_radixsort.h
+         src\src\BulletCollision\Gimpact\gim_tri_collision.h
+                27 個のファイルをコピーしました。
+         src\src\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h
+         src\src\BulletCollision\NarrowPhaseCollision\btConvexCast.h
+         src\src\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h
+         src\src\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h
+         src\src\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h
+         src\src\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h
+         src\src\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h
+         src\src\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h
+         src\src\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h
+         src\src\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h
+         src\src\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h
+         src\src\BulletCollision\NarrowPhaseCollision\btPointCollector.h
+         src\src\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.h
+         src\src\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h
+         src\src\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h
+         src\src\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h
+         src\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h
+                17 個のファイルをコピーしました。
+         src\src\BulletDynamics\Character\btCharacterControllerInterface.h
+         src\src\BulletDynamics\Character\btKinematicCharacterController.h
+                 2 個のファイルをコピーしました。
+         src\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btConstraintSolver.h
+         src\src\BulletDynamics\ConstraintSolver\btContactConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btContactSolverInfo.h
+         src\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.h
+         src\src\BulletDynamics\ConstraintSolver\btHingeConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btJacobianEntry.h
+         src\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h
+         src\src\BulletDynamics\ConstraintSolver\btSliderConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btSolverBody.h
+         src\src\BulletDynamics\ConstraintSolver\btSolverConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btTypedConstraint.h
+         src\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.h
+                17 個のファイルをコピーしました。
+         src\src\BulletDynamics\Dynamics\btActionInterface.h
+         src\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h
+         src\src\BulletDynamics\Dynamics\btDynamicsWorld.h
+         src\src\BulletDynamics\Dynamics\btRigidBody.h
+         src\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h
+                 5 個のファイルをコピーしました。
+         src\src\BulletDynamics\Vehicle\btRaycastVehicle.h
+         src\src\BulletDynamics\Vehicle\btVehicleRaycaster.h
+         src\src\BulletDynamics\Vehicle\btWheelInfo.h
+                 3 個のファイルをコピーしました。
+         src\src\BulletMultiThreaded\btGpu3DGridBroadphase.h
+         src\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedCode.h
+         src\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedDefs.h
+         src\src\BulletMultiThreaded\btGpu3DGridBroadphaseSharedTypes.h
+         src\src\BulletMultiThreaded\btGpuDefines.h
+         src\src\BulletMultiThreaded\btGpuUtilsSharedCode.h
+         src\src\BulletMultiThreaded\btGpuUtilsSharedDefs.h
+         src\src\BulletMultiThreaded\btParallelConstraintSolver.h
+         src\src\BulletMultiThreaded\btThreadSupportInterface.h
+         src\src\BulletMultiThreaded\HeapManager.h
+         src\src\BulletMultiThreaded\PlatformDefinitions.h
+         src\src\BulletMultiThreaded\PosixThreadSupport.h
+         src\src\BulletMultiThreaded\PpuAddressSpace.h
+         src\src\BulletMultiThreaded\SequentialThreadSupport.h
+         src\src\BulletMultiThreaded\SpuCollisionObjectWrapper.h
+         src\src\BulletMultiThreaded\SpuCollisionTaskProcess.h
+         src\src\BulletMultiThreaded\SpuContactManifoldCollisionAlgorithm.h
+         src\src\BulletMultiThreaded\SpuDoubleBuffer.h
+         src\src\BulletMultiThreaded\SpuFakeDma.h
+         src\src\BulletMultiThreaded\SpuGatheringCollisionDispatcher.h
+         src\src\BulletMultiThreaded\SpuLibspe2Support.h
+         src\src\BulletMultiThreaded\SpuSampleTaskProcess.h
+         src\src\BulletMultiThreaded\SpuSync.h
+         src\src\BulletMultiThreaded\TrbDynBody.h
+         src\src\BulletMultiThreaded\TrbStateVec.h
+         src\src\BulletMultiThreaded\vectormath2bullet.h
+         src\src\BulletMultiThreaded\Win32ThreadSupport.h
+                27 個のファイルをコピーしました。
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\CPU\btSoftBodySolverData.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\CPU\btSoftBodySolver_CPU.h
+                 2 個のファイルをコピーしました。
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverBuffer_DX11.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverLinkData_DX11.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverLinkData_DX11SIMDAware.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverTriangleData_DX11.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverVertexBuffer_DX11.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolverVertexData_DX11.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolver_DX11.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\DX11\btSoftBodySolver_DX11SIMDAware.h
+                 8 個のファイルをコピーしました。
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverBuffer_OpenCL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverLinkData_OpenCL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverLinkData_OpenCLSIMDAware.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverOutputCLtoGL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverTriangleData_OpenCL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverVertexBuffer_OpenGL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolverVertexData_OpenCL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolver_OpenCL.h
+         src\src\BulletMultiThreaded\GpuSoftBodySolvers\OpenCL\btSoftBodySolver_OpenCLSIMDAware.h
+                 9 個のファイルをコピーしました。
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\Box.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\boxBoxDistance.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuCollisionShapes.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuContactResult.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuConvexPenetrationDepthSolver.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuGatheringCollisionTask.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuLocalSupport.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuMinkowskiPenetrationDepthSolver.h
+         src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuPreferredPenetrationDirections.h
+                 9 個のファイルをコピーしました。
+         src\src\BulletMultiThreaded\SpuSampleTask\SpuSampleTask.h
+                 1 個のファイルをコピーしました。
+         src\src\BulletSoftBody\btDefaultSoftBodySolver.h
+         src\src\BulletSoftBody\btSoftBody.h
+         src\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h
+         src\src\BulletSoftBody\btSoftBodyData.h
+         src\src\BulletSoftBody\btSoftBodyHelpers.h
+         src\src\BulletSoftBody\btSoftBodyInternals.h
+         src\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h
+         src\src\BulletSoftBody\btSoftBodySolvers.h
+         src\src\BulletSoftBody\btSoftBodySolverVertexBuffer.h
+         src\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.h
+         src\src\BulletSoftBody\btSoftRigidDynamicsWorld.h
+         src\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.h
+         src\src\BulletSoftBody\btSparseSDF.h
+                13 個のファイルをコピーしました。
+         src\src\LinearMath\btAabbUtil2.h
+         src\src\LinearMath\btAlignedAllocator.h
+         src\src\LinearMath\btAlignedObjectArray.h
+         src\src\LinearMath\btConvexHull.h
+         src\src\LinearMath\btConvexHullComputer.h
+         src\src\LinearMath\btDefaultMotionState.h
+         src\src\LinearMath\btGeometryUtil.h
+         src\src\LinearMath\btGrahamScan2dConvexHull.h
+         src\src\LinearMath\btHashMap.h
+         src\src\LinearMath\btIDebugDraw.h
+         src\src\LinearMath\btList.h
+         src\src\LinearMath\btMatrix3x3.h
+         src\src\LinearMath\btMinMax.h
+         src\src\LinearMath\btMotionState.h
+         src\src\LinearMath\btPoolAllocator.h
+         src\src\LinearMath\btQuadWord.h
+         src\src\LinearMath\btQuaternion.h
+         src\src\LinearMath\btQuickprof.h
+         src\src\LinearMath\btRandom.h
+         src\src\LinearMath\btScalar.h
+         src\src\LinearMath\btSerializer.h
+         src\src\LinearMath\btStackAlloc.h
+         src\src\LinearMath\btTransform.h
+         src\src\LinearMath\btTransformUtil.h
+         src\src\LinearMath\btVector3.h
+                25 個のファイルをコピーしました。
+         src\src\MiniCL\cl.h
+         src\src\MiniCL\cl_gl.h
+         src\src\MiniCL\cl_MiniCL_Defs.h
+         src\src\MiniCL\cl_platform.h
+         src\src\MiniCL\MiniCLTaskScheduler.h
+                 5 個のファイルをコピーしました。
+         src\src\MiniCL\MiniCLTask\MiniCLTask.h
+                 1 個のファイルをコピーしました。
+         src\src\vectormath\vmInclude.h
+                 1 個のファイルをコピーしました。
+         src\src\vectormath\scalar\boolInVec.h
+         src\src\vectormath\scalar\floatInVec.h
+         src\src\vectormath\scalar\mat_aos.h
+         src\src\vectormath\scalar\quat_aos.h
+         src\src\vectormath\scalar\vectormath_aos.h
+         src\src\vectormath\scalar\vec_aos.h
+                 6 個のファイルをコピーしました。
+         src\src\vectormath\sse\boolInVec.h
+         src\src\vectormath\sse\floatInVec.h
+         src\src\vectormath\sse\mat_aos.h
+         src\src\vectormath\sse\quat_aos.h
+         src\src\vectormath\sse\vecidx_aos.h
+         src\src\vectormath\sse\vectormath_aos.h
+         src\src\vectormath\sse\vec_aos.h
+                 7 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\src /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\src\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp src\src\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp src\src\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp src\src\BulletCollision\BroadphaseCollision\btDbvt.cpp src\src\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp src\src\BulletCollision\BroadphaseCollision\btDispatcher.cpp src\src\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp src\src\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp src\src\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp src\src\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp src\src\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp src\src\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp src\src\BulletCollision\CollisionDispatch\btCollisionObject.cpp src\src\BulletCollision\CollisionDispatch\btCollisionWorld.cpp src\src\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp src\src\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btGhostObject.cpp src\src\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp src\src\BulletCollision\CollisionDispatch\btManifoldResult.cpp src\src\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp src\src\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp src\src\BulletCollision\CollisionDispatch\btUnionFind.cpp src\src\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp src\src\BulletCollision\CollisionShapes\btBox2dShape.cpp src\src\BulletCollision\CollisionShapes\btBoxShape.cpp src\src\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp src\src\BulletCollision\CollisionShapes\btCapsuleShape.cpp src\src\BulletCollision\CollisionShapes\btCollisionShape.cpp src\src\BulletCollision\CollisionShapes\btCompoundShape.cpp src\src\BulletCollision\CollisionShapes\btConcaveShape.cpp src\src\BulletCollision\CollisionShapes\btConeShape.cpp src\src\BulletCollision\CollisionShapes\btConvex2dShape.cpp src\src\BulletCollision\CollisionShapes\btConvexHullShape.cpp src\src\BulletCollision\CollisionShapes\btConvexInternalShape.cpp src\src\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp src\src\BulletCollision\CollisionShapes\btConvexPolyhedron.cpp src\src\BulletCollision\CollisionShapes\btConvexShape.cpp src\src\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp src\src\BulletCollision\CollisionShapes\btCylinderShape.cpp src\src\BulletCollision\CollisionShapes\btEmptyShape.cpp src\src\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp src\src\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp src\src\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp src\src\BulletCollision\CollisionShapes\btMultiSphereShape.cpp src\src\BulletCollision\CollisionShapes\btOptimizedBvh.cpp src\src\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp src\src\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp src\src\BulletCollision\CollisionShapes\btShapeHull.cpp src\src\BulletCollision\CollisionShapes\btSphereShape.cpp src\src\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp src\src\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp src\src\BulletCollision\CollisionShapes\btTetrahedronShape.cpp src\src\BulletCollision\CollisionShapes\btTriangleBuffer.cpp src\src\BulletCollision\CollisionShapes\btTriangleCallback.cpp src\src\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp src\src\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp src\src\BulletCollision\CollisionShapes\btTriangleMesh.cpp src\src\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp src\src\BulletCollision\CollisionShapes\btUniformScalingShape.cpp src\src\BulletCollision\Gimpact\btContactProcessing.cpp src\src\BulletCollision\Gimpact\btGenericPoolAllocator.cpp src\src\BulletCollision\Gimpact\btGImpactBvh.cpp src\src\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp src\src\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp src\src\BulletCollision\Gimpact\btGImpactShape.cpp src\src\BulletCollision\Gimpact\btTriangleShapeEx.cpp src\src\BulletCollision\Gimpact\gim_box_set.cpp src\src\BulletCollision\Gimpact\gim_contact.cpp src\src\BulletCollision\Gimpact\gim_memory.cpp src\src\BulletCollision\Gimpact\gim_tri_collision.cpp src\src\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp src\src\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp src\src\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp src\src\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp src\src\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp src\src\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp src\src\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp src\src\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp src\src\BulletCollision\NarrowPhaseCollision\btPolyhedralContactClipping.cpp src\src\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp src\src\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp src\src\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp src\src\BulletDynamics\Character\btKinematicCharacterController.cpp src\src\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btContactConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp src\src\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp src\src\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp src\src\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp src\src\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp src\src\BulletDynamics\Dynamics\btRigidBody.cpp src\src\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp "src\src\BulletDynamics\Dynamics\Bullet-C-API.cpp" src\src\BulletDynamics\Vehicle\btRaycastVehicle.cpp src\src\BulletDynamics\Vehicle\btWheelInfo.cpp src\src\BulletMultiThreaded\btGpu3DGridBroadphase.cpp src\src\BulletMultiThreaded\btParallelConstraintSolver.cpp src\src\BulletMultiThreaded\btThreadSupportInterface.cpp src\src\BulletMultiThreaded\PosixThreadSupport.cpp src\src\BulletMultiThreaded\SequentialThreadSupport.cpp src\src\BulletMultiThreaded\SpuCollisionObjectWrapper.cpp src\src\BulletMultiThreaded\SpuCollisionTaskProcess.cpp src\src\BulletMultiThreaded\SpuContactManifoldCollisionAlgorithm.cpp src\src\BulletMultiThreaded\SpuFakeDma.cpp src\src\BulletMultiThreaded\SpuGatheringCollisionDispatcher.cpp src\src\BulletMultiThreaded\SpuLibspe2Support.cpp src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\boxBoxDistance.cpp src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuCollisionShapes.cpp src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuContactResult.cpp src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuGatheringCollisionTask.cpp src\src\BulletMultiThreaded\SpuNarrowPhaseCollisionTask\SpuMinkowskiPenetrationDepthSolver.cpp src\src\BulletMultiThreaded\SpuSampleTaskProcess.cpp src\src\BulletMultiThreaded\Win32ThreadSupport.cpp src\src\BulletSoftBody\btDefaultSoftBodySolver.cpp src\src\BulletSoftBody\btSoftBody.cpp src\src\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp src\src\BulletSoftBody\btSoftBodyHelpers.cpp src\src\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp src\src\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp src\src\BulletSoftBody\btSoftRigidDynamicsWorld.cpp src\src\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp src\src\LinearMath\btAlignedAllocator.cpp src\src\LinearMath\btConvexHull.cpp src\src\LinearMath\btConvexHullComputer.cpp src\src\LinearMath\btGeometryUtil.cpp src\src\LinearMath\btQuickprof.cpp src\src\LinearMath\btSerializer.cpp src\src\MiniCL\MiniCL.cpp src\src\MiniCL\MiniCLTaskScheduler.cpp src\src\MiniCL\MiniCLTask\MiniCLTask.cpp
+         MiniCLTask.cpp
+         MiniCLTaskScheduler.cpp
+         MiniCL.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_bullet_physics\src\src\minicl\minicl.cpp(151): warning C4101: 'workitem_size' : ローカル変数は 1 度も使われていません。
+         btSerializer.cpp
+         btQuickprof.cpp
+         btGeometryUtil.cpp
+         btConvexHullComputer.cpp
+         btConvexHull.cpp
+         btAlignedAllocator.cpp
+         btSoftSoftCollisionAlgorithm.cpp
+         btSoftRigidDynamicsWorld.cpp
+         btSoftRigidCollisionAlgorithm.cpp
+         btSoftBodyRigidBodyCollisionConfiguration.cpp
+         btSoftBodyHelpers.cpp
+         btSoftBodyConcaveCollisionAlgorithm.cpp
+         btSoftBody.cpp
+         btDefaultSoftBodySolver.cpp
+         Win32ThreadSupport.cpp
+         SpuSampleTaskProcess.cpp
+         SpuMinkowskiPenetrationDepthSolver.cpp
+         コードを生成中...
+         コンパイル中...
+         SpuGatheringCollisionTask.cpp
+         SpuContactResult.cpp
+         SpuCollisionShapes.cpp
+         boxBoxDistance.cpp
+         SpuLibspe2Support.cpp
+         SpuGatheringCollisionDispatcher.cpp
+         SpuFakeDma.cpp
+         SpuContactManifoldCollisionAlgorithm.cpp
+         SpuCollisionTaskProcess.cpp
+         SpuCollisionObjectWrapper.cpp
+         SequentialThreadSupport.cpp
+         PosixThreadSupport.cpp
+         btThreadSupportInterface.cpp
+         btParallelConstraintSolver.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_bullet_physics\src\src\bulletmultithreaded\btparallelconstraintsolver.cpp(1323): warning C4305: '初期化中' : 'double' から 'float' へ切り詰めます。
+         btGpu3DGridBroadphase.cpp
+         btWheelInfo.cpp
+         btRaycastVehicle.cpp
+         Bullet-C-API.cpp
+         btSimpleDynamicsWorld.cpp
+         btRigidBody.cpp
+         コードを生成中...
+         コンパイル中...
+         btDiscreteDynamicsWorld.cpp
+         btUniversalConstraint.cpp
+         btTypedConstraint.cpp
+         btSolve2LinearConstraint.cpp
+         btSliderConstraint.cpp
+         btSequentialImpulseConstraintSolver.cpp
+         btPoint2PointConstraint.cpp
+         btHingeConstraint.cpp
+         btHinge2Constraint.cpp
+         btGeneric6DofSpringConstraint.cpp
+         btGeneric6DofConstraint.cpp
+         btContactConstraint.cpp
+         btConeTwistConstraint.cpp
+         btKinematicCharacterController.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_bullet_physics\src\src\bulletdynamics\character\btkinematiccharactercontroller.cpp(133): warning C4305: '=' : 'double' から 'btScalar' へ切り詰めます。
+     1>c:\mmdagent2\mmdagent-1.4\library_bullet_physics\src\src\bulletdynamics\character\btkinematiccharactercontroller.cpp(144): warning C4305: '=' : 'double' から 'btScalar' へ切り詰めます。
+         btVoronoiSimplexSolver.cpp
+         btSubSimplexConvexCast.cpp
+         btRaycastCallback.cpp
+         btPolyhedralContactClipping.cpp
+         btPersistentManifold.cpp
+         btMinkowskiPenetrationDepthSolver.cpp
+         コードを生成中...
+         コンパイル中...
+         btGjkPairDetector.cpp
+         btGjkEpaPenetrationDepthSolver.cpp
+         btGjkEpa2.cpp
+         btGjkConvexCast.cpp
+         btConvexCast.cpp
+         btContinuousConvexCollision.cpp
+         gim_tri_collision.cpp
+         gim_memory.cpp
+         gim_contact.cpp
+         gim_box_set.cpp
+         btTriangleShapeEx.cpp
+         btGImpactShape.cpp
+         btGImpactQuantizedBvh.cpp
+         btGImpactCollisionAlgorithm.cpp
+         btGImpactBvh.cpp
+         btGenericPoolAllocator.cpp
+         btContactProcessing.cpp
+         btUniformScalingShape.cpp
+         btTriangleMeshShape.cpp
+         btTriangleMesh.cpp
+         コードを生成中...
+         コンパイル中...
+         btTriangleIndexVertexMaterialArray.cpp
+         btTriangleIndexVertexArray.cpp
+         btTriangleCallback.cpp
+         btTriangleBuffer.cpp
+         btTetrahedronShape.cpp
+         btStridingMeshInterface.cpp
+         btStaticPlaneShape.cpp
+         btSphereShape.cpp
+         btShapeHull.cpp
+         btScaledBvhTriangleMeshShape.cpp
+         btPolyhedralConvexShape.cpp
+         btOptimizedBvh.cpp
+         btMultiSphereShape.cpp
+         btMultimaterialTriangleMeshShape.cpp
+         btMinkowskiSumShape.cpp
+         btHeightfieldTerrainShape.cpp
+         btEmptyShape.cpp
+         btCylinderShape.cpp
+         btConvexTriangleMeshShape.cpp
+         btConvexShape.cpp
+         コードを生成中...
+         コンパイル中...
+         btConvexPolyhedron.cpp
+         btConvexPointCloudShape.cpp
+         btConvexInternalShape.cpp
+         btConvexHullShape.cpp
+         btConvex2dShape.cpp
+         btConeShape.cpp
+         btConcaveShape.cpp
+         btCompoundShape.cpp
+         btCollisionShape.cpp
+         btCapsuleShape.cpp
+         btBvhTriangleMeshShape.cpp
+         btBoxShape.cpp
+         btBox2dShape.cpp
+         SphereTriangleDetector.cpp
+         btUnionFind.cpp
+         btSphereTriangleCollisionAlgorithm.cpp
+         btSphereSphereCollisionAlgorithm.cpp
+         btSphereBoxCollisionAlgorithm.cpp
+         btSimulationIslandManager.cpp
+         btManifoldResult.cpp
+         コードを生成中...
+         コンパイル中...
+         btInternalEdgeUtility.cpp
+         btGhostObject.cpp
+         btEmptyCollisionAlgorithm.cpp
+         btDefaultCollisionConfiguration.cpp
+         btConvexPlaneCollisionAlgorithm.cpp
+         btConvexConvexAlgorithm.cpp
+         btConvexConcaveCollisionAlgorithm.cpp
+         btConvex2dConvex2dAlgorithm.cpp
+         btCompoundCollisionAlgorithm.cpp
+         btCollisionWorld.cpp
+         btCollisionObject.cpp
+         btCollisionDispatcher.cpp
+         btBoxBoxDetector.cpp
+         btBoxBoxCollisionAlgorithm.cpp
+         btBox2dBox2dCollisionAlgorithm.cpp
+         btActivatingCollisionAlgorithm.cpp
+         btSimpleBroadphase.cpp
+         btQuantizedBvh.cpp
+         btOverlappingPairCache.cpp
+         btMultiSapBroadphase.cpp
+         コードを生成中...
+         コンパイル中...
+         btDispatcher.cpp
+         btDbvtBroadphase.cpp
+         btDbvt.cpp
+         btCollisionAlgorithm.cpp
+         btBroadphaseProxy.cpp
+         btAxisSweep3.cpp
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_Bullet_Physics.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_Bullet_Physics\lib\Bullet_Physics_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_Bullet_Physics) が Library の OutputFile プロパティ値 (Bullet_Physics_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\Bullet_Physics_D.lib" /NOLOGO Debug\btAxisSweep3.obj
+         Debug\btBroadphaseProxy.obj
+         Debug\btCollisionAlgorithm.obj
+         Debug\btDbvt.obj
+         Debug\btDbvtBroadphase.obj
+         Debug\btDispatcher.obj
+         Debug\btMultiSapBroadphase.obj
+         Debug\btOverlappingPairCache.obj
+         Debug\btQuantizedBvh.obj
+         Debug\btSimpleBroadphase.obj
+         Debug\btActivatingCollisionAlgorithm.obj
+         Debug\btBox2dBox2dCollisionAlgorithm.obj
+         Debug\btBoxBoxCollisionAlgorithm.obj
+         Debug\btBoxBoxDetector.obj
+         Debug\btCollisionDispatcher.obj
+         Debug\btCollisionObject.obj
+         Debug\btCollisionWorld.obj
+         Debug\btCompoundCollisionAlgorithm.obj
+         Debug\btConvex2dConvex2dAlgorithm.obj
+         Debug\btConvexConcaveCollisionAlgorithm.obj
+         Debug\btConvexConvexAlgorithm.obj
+         Debug\btConvexPlaneCollisionAlgorithm.obj
+         Debug\btDefaultCollisionConfiguration.obj
+         Debug\btEmptyCollisionAlgorithm.obj
+         Debug\btGhostObject.obj
+         Debug\btInternalEdgeUtility.obj
+         Debug\btManifoldResult.obj
+         Debug\btSimulationIslandManager.obj
+         Debug\btSphereBoxCollisionAlgorithm.obj
+         Debug\btSphereSphereCollisionAlgorithm.obj
+         Debug\btSphereTriangleCollisionAlgorithm.obj
+         Debug\btUnionFind.obj
+         Debug\SphereTriangleDetector.obj
+         Debug\btBox2dShape.obj
+         Debug\btBoxShape.obj
+         Debug\btBvhTriangleMeshShape.obj
+         Debug\btCapsuleShape.obj
+         Debug\btCollisionShape.obj
+         Debug\btCompoundShape.obj
+         Debug\btConcaveShape.obj
+         Debug\btConeShape.obj
+         Debug\btConvex2dShape.obj
+         Debug\btConvexHullShape.obj
+         Debug\btConvexInternalShape.obj
+         Debug\btConvexPointCloudShape.obj
+         Debug\btConvexPolyhedron.obj
+         Debug\btConvexShape.obj
+         Debug\btConvexTriangleMeshShape.obj
+         Debug\btCylinderShape.obj
+         Debug\btEmptyShape.obj
+         Debug\btHeightfieldTerrainShape.obj
+         Debug\btMinkowskiSumShape.obj
+         Debug\btMultimaterialTriangleMeshShape.obj
+         Debug\btMultiSphereShape.obj
+         Debug\btOptimizedBvh.obj
+         Debug\btPolyhedralConvexShape.obj
+         Debug\btScaledBvhTriangleMeshShape.obj
+         Debug\btShapeHull.obj
+         Debug\btSphereShape.obj
+         Debug\btStaticPlaneShape.obj
+         Debug\btStridingMeshInterface.obj
+         Debug\btTetrahedronShape.obj
+         Debug\btTriangleBuffer.obj
+         Debug\btTriangleCallback.obj
+         Debug\btTriangleIndexVertexArray.obj
+         Debug\btTriangleIndexVertexMaterialArray.obj
+         Debug\btTriangleMesh.obj
+         Debug\btTriangleMeshShape.obj
+         Debug\btUniformScalingShape.obj
+         Debug\btContactProcessing.obj
+         Debug\btGenericPoolAllocator.obj
+         Debug\btGImpactBvh.obj
+         Debug\btGImpactCollisionAlgorithm.obj
+         Debug\btGImpactQuantizedBvh.obj
+         Debug\btGImpactShape.obj
+         Debug\btTriangleShapeEx.obj
+         Debug\gim_box_set.obj
+         Debug\gim_contact.obj
+         Debug\gim_memory.obj
+         Debug\gim_tri_collision.obj
+         Debug\btContinuousConvexCollision.obj
+         Debug\btConvexCast.obj
+         Debug\btGjkConvexCast.obj
+         Debug\btGjkEpa2.obj
+         Debug\btGjkEpaPenetrationDepthSolver.obj
+         Debug\btGjkPairDetector.obj
+         Debug\btMinkowskiPenetrationDepthSolver.obj
+         Debug\btPersistentManifold.obj
+         Debug\btPolyhedralContactClipping.obj
+         Debug\btRaycastCallback.obj
+         Debug\btSubSimplexConvexCast.obj
+         Debug\btVoronoiSimplexSolver.obj
+         Debug\btKinematicCharacterController.obj
+         Debug\btConeTwistConstraint.obj
+         Debug\btContactConstraint.obj
+         Debug\btGeneric6DofConstraint.obj
+         Debug\btGeneric6DofSpringConstraint.obj
+         Debug\btHinge2Constraint.obj
+         Debug\btHingeConstraint.obj
+         Debug\btPoint2PointConstraint.obj
+         Debug\btSequentialImpulseConstraintSolver.obj
+         Debug\btSliderConstraint.obj
+         Debug\btSolve2LinearConstraint.obj
+         Debug\btTypedConstraint.obj
+         Debug\btUniversalConstraint.obj
+         Debug\btDiscreteDynamicsWorld.obj
+         Debug\btRigidBody.obj
+         Debug\btSimpleDynamicsWorld.obj
+         "Debug\Bullet-C-API.obj"
+         Debug\btRaycastVehicle.obj
+         Debug\btWheelInfo.obj
+         Debug\btGpu3DGridBroadphase.obj
+         Debug\btParallelConstraintSolver.obj
+         Debug\btThreadSupportInterface.obj
+         Debug\PosixThreadSupport.obj
+         Debug\SequentialThreadSupport.obj
+         Debug\SpuCollisionObjectWrapper.obj
+         Debug\SpuCollisionTaskProcess.obj
+         Debug\SpuContactManifoldCollisionAlgorithm.obj
+         Debug\SpuFakeDma.obj
+         Debug\SpuGatheringCollisionDispatcher.obj
+         Debug\SpuLibspe2Support.obj
+         Debug\boxBoxDistance.obj
+         Debug\SpuCollisionShapes.obj
+         Debug\SpuContactResult.obj
+         Debug\SpuGatheringCollisionTask.obj
+         Debug\SpuMinkowskiPenetrationDepthSolver.obj
+         Debug\SpuSampleTaskProcess.obj
+         Debug\Win32ThreadSupport.obj
+         Debug\btDefaultSoftBodySolver.obj
+         Debug\btSoftBody.obj
+         Debug\btSoftBodyConcaveCollisionAlgorithm.obj
+         Debug\btSoftBodyHelpers.obj
+         Debug\btSoftBodyRigidBodyCollisionConfiguration.obj
+         Debug\btSoftRigidCollisionAlgorithm.obj
+         Debug\btSoftRigidDynamicsWorld.obj
+         Debug\btSoftSoftCollisionAlgorithm.obj
+         Debug\btAlignedAllocator.obj
+         Debug\btConvexHull.obj
+         Debug\btConvexHullComputer.obj
+         Debug\btGeometryUtil.obj
+         Debug\btQuickprof.obj
+         Debug\btSerializer.obj
+         Debug\MiniCL.obj
+         Debug\MiniCLTaskScheduler.obj
+         Debug\MiniCLTask.obj
+     1>PosixThreadSupport.obj : warning LNK4221: このオブジェクト ファイルは、以前に未定義であったパブリック シンボルを定義していないため、このライブラリを使用するリンク操作では使用されません
+         Library_Bullet_Physics.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_Bullet_Physics.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_Bullet_Physics.unsuccessfulbuild" を削除しています。
+         "Debug\Library_Bullet_Physics.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_Bullet_Physics\Library_Bullet_Physics.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:34.07

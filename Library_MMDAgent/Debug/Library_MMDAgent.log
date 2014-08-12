@@ -1,0 +1,145 @@
+﻿2014/08/08 16:12:09 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_MMDAgent\Library_MMDAgent.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Debug\Library_MMDAgent.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\include\*.h include
+         :VCEnd
+         src\include\BoneController.h
+         src\include\LipSync.h
+         src\include\LogText.h
+         src\include\Message.h
+         src\include\MMDAgent.h
+         src\include\MMDAgent_utils.h
+         src\include\MotionStocker.h
+         src\include\Option.h
+         src\include\Plugin.h
+         src\include\PMDObject.h
+         src\include\Render.h
+         src\include\ScreenWindow.h
+         src\include\Stage.h
+         src\include\TextRenderer.h
+         src\include\TileTexture.h
+         src\include\Timer.h
+                16 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Library_Bullet_Physics\include /I..\Library_MMDFiles\include /I..\Library_GLee\include /Isrc\include /I..\Library_GLFW\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D MMDAGENT /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\lib\BoneController.cpp src\lib\LipSync.cpp src\lib\LogText.cpp src\lib\Message.cpp src\lib\MMDAgent.cpp src\lib\MMDAgent_utils.cpp src\lib\MotionStocker.cpp src\lib\Option.cpp src\lib\Plugin.cpp src\lib\PMDObject.cpp src\lib\Render.cpp src\lib\ScreenWindow.cpp src\lib\Stage.cpp src\lib\TextRenderer.cpp src\lib\TileTexture.cpp src\lib\Timer.cpp
+         Timer.cpp
+         TileTexture.cpp
+         TextRenderer.cpp
+         Stage.cpp
+         ScreenWindow.cpp
+         Render.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\render.cpp(1112): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         PMDObject.cpp
+         Plugin.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\plugin.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+         Option.cpp
+         MotionStocker.cpp
+         MMDAgent_utils.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(114): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(439): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(441): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(496): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(504): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(507): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent_utils.cpp(511): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+         MMDAgent.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1012): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1022): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1029): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1037): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 'strcat' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1045): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1075): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1091): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1394): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1396): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1408): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1421): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1423): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1425): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1439): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1441): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'sprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1561): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'vsprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(1580): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'vsprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\mmdagent.cpp(2123): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' の宣言を確認してください。
+         Message.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\message.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\message.cpp(105): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\message.cpp(109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\message.cpp(111): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+         LogText.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\logtext.cpp(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 'strcpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\logtext.cpp(143): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 'vsprintf' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\logtext.cpp(145): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' の宣言を確認してください。
+         LipSync.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\lipsync.cpp(272): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' の宣言を確認してください。
+     1>c:\mmdagent2\mmdagent-1.4\library_mmdagent\src\lib\lipsync.cpp(287): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' の宣言を確認してください。
+         BoneController.cpp
+         コードを生成中...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Debug\Library_MMDAgent.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_MMDAgent\lib\MMDAgent_D.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_MMDAgent) が Library の OutputFile プロパティ値 (MMDAgent_D) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\MMDAgent_D.lib" /NOLOGO Debug\BoneController.obj
+         Debug\LipSync.obj
+         Debug\LogText.obj
+         Debug\Message.obj
+         Debug\MMDAgent.obj
+         Debug\MMDAgent_utils.obj
+         Debug\MotionStocker.obj
+         Debug\Option.obj
+         Debug\Plugin.obj
+         Debug\PMDObject.obj
+         Debug\Render.obj
+         Debug\ScreenWindow.obj
+         Debug\Stage.obj
+         Debug\TextRenderer.obj
+         Debug\TileTexture.obj
+         Debug\Timer.obj
+         Library_MMDAgent.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Debug\Library_MMDAgent.lib
+       FinalizeBuildStatus:
+         ファイル "Debug\Library_MMDAgent.unsuccessfulbuild" を削除しています。
+         "Debug\Library_MMDAgent.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_MMDAgent\Library_MMDAgent.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.40

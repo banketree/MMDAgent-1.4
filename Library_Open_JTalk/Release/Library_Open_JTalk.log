@@ -1,0 +1,230 @@
+﻿2014/08/08 14:47:48 にビルドを開始しました。
+     1>ノード 5 上のプロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_Open_JTalk\Library_Open_JTalk.vcxproj" (build ターゲット)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output ディレクトリの末尾がスラッシュではありません。Output ディレクトリが適切に評価されるようにするために、このビルド インスタンスによってスラッシュが追加されます。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "Release\Library_Open_JTalk.unsuccessfulbuild" を作成しています。
+       PreBuildEvent:
+         copy src\text2mecab\text2mecab.h include\text2mecab.h;
+         copy src\mecab\src\mecab.h include\mecab.h;
+         copy src\mecab2njd\mecab2njd.h include\mecab2njd.h;
+         copy src\njd\njd.h include\njd.h;
+         copy src\njd_set_pronunciation\njd_set_pronunciation.h include\njd_set_pronunciation.h;
+         copy src\njd_set_digit\njd_set_digit.h include\njd_set_digit.h;
+         copy src\njd_set_accent_phrase\njd_set_accent_phrase.h include\njd_set_accent_phrase.h;
+         copy src\njd_set_accent_type\njd_set_accent_type.h include\njd_set_accent_type.h;
+         copy src\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel.h include\njd_set_unvoiced_vowel.h;
+         copy src\njd_set_long_vowel\njd_set_long_vowel.h include\njd_set_long_vowel.h;
+         copy src\njd2jpcommon\njd2jpcommon.h include\njd2jpcommon.h;
+         copy src\jpcommon\jpcommon.h include\jpcommon.h;
+         
+         :VCEnd
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+                 1 個のファイルをコピーしました。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\jpcommon /Isrc\mecab\src /Isrc\mecab2njd /Isrc\njd /Isrc\njd2jpcommon /Isrc\njd_set_accent_phrase /Isrc\njd_set_accent_type /Isrc\njd_set_digit /Isrc\njd_set_long_vowel /Isrc\njd_set_pronunciation /Isrc\njd_set_unvoiced_vowel /Isrc\text2mecab /I..\Library_hts_engine_API\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D DIC_VERSION=102 /D "MECAB_DEFAULT_RC=\"dummy\"" /D "PACKAGE=\"open_jtalk\"" /D "VERSION=\"1.02\"" /D MECAB_WITHOUT_SHARE_DIC /D HAVE_WINDOWS_H /D CHARSET_SHIFT_JIS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt src\jpcommon\jpcommon.c src\jpcommon\jpcommon_label.c src\jpcommon\jpcommon_node.c src\mecab2njd\mecab2njd.c src\njd2jpcommon\njd2jpcommon.c src\njd\njd.c src\njd\njd_node.c src\njd_set_accent_phrase\njd_set_accent_phrase.c src\njd_set_accent_type\njd_set_accent_type.c src\njd_set_digit\njd_set_digit.c src\njd_set_long_vowel\njd_set_long_vowel.c src\njd_set_pronunciation\njd_set_pronunciation.c src\njd_set_unvoiced_vowel\njd_set_unvoiced_vowel.c src\text2mecab\text2mecab.c
+         jpcommon.c
+         jpcommon_label.c
+     1>src\jpcommon\jpcommon_label.c(115): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(181): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(194): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(207): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(231): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(456): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_label.c(459): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+         jpcommon_node.c
+     1>src\jpcommon\jpcommon_node.c(76): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_node.c(83): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_node.c(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\jpcommon\jpcommon_node.c(97): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+         mecab2njd.c
+         njd2jpcommon.c
+         njd.c
+         njd_node.c
+     1>src\njd\njd_node.c(108): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(118): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(128): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(138): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(148): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(158): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(168): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(178): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(188): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(198): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(227): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(241): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\njd\njd_node.c(258): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+         njd_set_accent_phrase.c
+         njd_set_accent_type.c
+         njd_set_digit.c
+         njd_set_long_vowel.c
+         njd_set_pronunciation.c
+         njd_set_unvoiced_vowel.c
+         text2mecab.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Isrc\jpcommon /Isrc\mecab\src /Isrc\mecab2njd /Isrc\njd /Isrc\njd2jpcommon /Isrc\njd_set_accent_phrase /Isrc\njd_set_accent_type /Isrc\njd_set_digit /Isrc\njd_set_long_vowel /Isrc\njd_set_pronunciation /Isrc\njd_set_unvoiced_vowel /Isrc\text2mecab /I..\Library_hts_engine_API\include /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D WIN32 /D NDEBUG /D _LIB /D _CRT_SECURE_NO_WARNINGS /D DIC_VERSION=102 /D "MECAB_DEFAULT_RC=\"dummy\"" /D "PACKAGE=\"open_jtalk\"" /D "VERSION=\"1.02\"" /D MECAB_WITHOUT_SHARE_DIC /D HAVE_WINDOWS_H /D CHARSET_SHIFT_JIS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\mecab\src\char_property.cpp src\mecab\src\connector.cpp src\mecab\src\context_id.cpp src\mecab\src\dictionary.cpp src\mecab\src\dictionary_compiler.cpp src\mecab\src\dictionary_generator.cpp src\mecab\src\dictionary_rewriter.cpp src\mecab\src\eval.cpp src\mecab\src\feature_index.cpp src\mecab\src\iconv_utils.cpp src\mecab\src\lbfgs.cpp src\mecab\src\learner.cpp src\mecab\src\learner_tagger.cpp src\mecab\src\libmecab.cpp src\mecab\src\mecab.cpp src\mecab\src\nbest_generator.cpp src\mecab\src\param.cpp src\mecab\src\string_buffer.cpp src\mecab\src\tagger.cpp src\mecab\src\tokenizer.cpp src\mecab\src\utils.cpp src\mecab\src\viterbi.cpp src\mecab\src\writer.cpp
+         char_property.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         connector.cpp
+         context_id.cpp
+         dictionary.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\darts.h(189): warning C4146: 符号付きの値を代入する変数は、符号付き型にキャストしなければなりません。
+                 c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\darts.h(129): クラス テンプレート のメンバー関数 'size_t MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>::insert(const std::vector<_Ty> &)' のコンパイル中
+                 with
+                 [
+                     node_type_=char,
+                     node_u_type_=unsigned char,
+                     array_type_=int,
+                     array_u_type_=unsigned int,
+                     _Ty=MeCab::Darts::DoubleArrayImpl<char,unsigned char,int,unsigned int>::node_t
+                 ]
+                 c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\dictionary.h(29) : コンパイルされたクラスの テンプレート のインスタンス化 'MeCab::Darts::DoubleArrayImpl<node_type_,node_u_type_,array_type_,array_u_type_>' の参照を確認してください
+                 with
+                 [
+                     node_type_=char,
+                     node_u_type_=unsigned char,
+                     array_type_=int,
+                     array_u_type_=unsigned int
+                 ]
+         dictionary_compiler.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         dictionary_generator.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         dictionary_rewriter.cpp
+         eval.cpp
+     1>src\mecab\src\eval.cpp(104): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
+     1>src\mecab\src\eval.cpp(113): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
+         feature_index.cpp
+         iconv_utils.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         lbfgs.cpp
+         learner.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\learner.cpp(301): warning C4305: 'return' : 'int' から 'bool' へ切り詰めます。
+     1>src\mecab\src\learner.cpp(308): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         learner_tagger.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         libmecab.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\libmecab.cpp(186): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\libmecab.cpp(211): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\libmecab.cpp(380): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         mecab.cpp
+     1>src\mecab\src\mecab.cpp(88): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\mecab\src\mecab.cpp(89): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+     1>src\mecab\src\mecab.cpp(90): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(238) : 'strdup' の宣言を確認してください。
+         nbest_generator.cpp
+         param.cpp
+         string_buffer.cpp
+         tagger.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\tagger.cpp(205): warning C4244: '引数' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\tagger.cpp(256): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\tagger.cpp(265): warning C4800: 'const int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\tagger.cpp(414): warning C4244: '引数' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\tagger.cpp(489): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\tagger.cpp(497): warning C4244: 'return' : 'const double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\tagger.cpp(532): warning C4800: 'int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         tokenizer.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+         コンパイル中...
+         utils.cpp
+         viterbi.cpp
+     1>c:\mmdagent2\mmdagent-1.4\library_open_jtalk\src\mecab\src\char_property.h(22): warning C4800: 'const unsigned int' : ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+     1>src\mecab\src\viterbi.cpp(28): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\viterbi.cpp(37): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\viterbi.cpp(170): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+     1>src\mecab\src\viterbi.cpp(174): warning C4244: '=' : 'double' から 'float' への変換です。データが失われる可能性があります。
+         writer.cpp
+     1>src\mecab\src\writer.cpp(143): warning C4305: '初期化中' : 'double' から 'const float' へ切り詰めます。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\MMDAgent2\MMDAgent-1.4\Library_Open_JTalk\.\lib\Library_Open_JTalk.lib) が Library の OutputFile プロパティ値 (C:\MMDAgent2\MMDAgent-1.4\Library_Open_JTalk\lib\Open_JTalk.lib) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(Library_Open_JTalk) が Library の OutputFile プロパティ値 (Open_JTalk) と一致しません。このため、プロジェクトが正常にビルドされない可能性があります。この問題を解決するには、$(OutDir)、$(TargetName)、および $(TargetExt) の各プロパティ値が、%(Lib.OutputFile) で指定されている値と一致することを確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"lib\Open_JTalk.lib" /NOLOGO /LTCG Release\jpcommon.obj
+         Release\jpcommon_label.obj
+         Release\jpcommon_node.obj
+         Release\mecab2njd.obj
+         Release\char_property.obj
+         Release\connector.obj
+         Release\context_id.obj
+         Release\dictionary.obj
+         Release\dictionary_compiler.obj
+         Release\dictionary_generator.obj
+         Release\dictionary_rewriter.obj
+         Release\eval.obj
+         Release\feature_index.obj
+         Release\iconv_utils.obj
+         Release\lbfgs.obj
+         Release\learner.obj
+         Release\learner_tagger.obj
+         Release\libmecab.obj
+         Release\mecab.obj
+         Release\nbest_generator.obj
+         Release\param.obj
+         Release\string_buffer.obj
+         Release\tagger.obj
+         Release\tokenizer.obj
+         Release\utils.obj
+         Release\viterbi.obj
+         Release\writer.obj
+         Release\njd2jpcommon.obj
+         Release\njd.obj
+         Release\njd_node.obj
+         Release\njd_set_accent_phrase.obj
+         Release\njd_set_accent_type.obj
+         Release\njd_set_digit.obj
+         Release\njd_set_long_vowel.obj
+         Release\njd_set_pronunciation.obj
+         Release\njd_set_unvoiced_vowel.obj
+         Release\text2mecab.obj
+         Library_Open_JTalk.vcxproj -> C:\MMDAgent2\MMDAgent-1.4\Library_Open_JTalk\.\lib\Library_Open_JTalk.lib
+       FinalizeBuildStatus:
+         ファイル "Release\Library_Open_JTalk.unsuccessfulbuild" を削除しています。
+         "Release\Library_Open_JTalk.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\MMDAgent2\MMDAgent-1.4\Library_Open_JTalk\Library_Open_JTalk.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:28.71
