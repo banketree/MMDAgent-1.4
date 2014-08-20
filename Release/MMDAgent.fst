@@ -167,7 +167,7 @@
 16   17   <eps>                               TIMER_START|bootscreen|1.5
 17   2    TIMER_EVENT_STOP|bootscreen         MODEL_DELETE|bootscreen
 
-
+#ƒ{ƒ^ƒ“‚ð‰Ÿ‚µ‚½‚ç‰æ‘œ‚ð•\Ž¦‚·‚é
 
 
 
